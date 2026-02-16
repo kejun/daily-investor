@@ -24,19 +24,23 @@ class XTopicTracker:
     TOPICS = {
         "AI技术": {
             "kols": ["sama", "karpathy", "ylecun"],
-            "keywords": ["AI", "LLM", "GPT", "Claude", "OpenAI"]
+            "keywords": ["AI", "LLM", "GPT", "Claude", "OpenAI"],
+            "name_zh": "人工智能"
         },
         "Agent技术": {
             "kols": ["hwchase17", "jxnlco", "DrJimFan"],
-            "keywords": ["MCP", "Agent", "LangChain"]
+            "keywords": ["MCP", "Agent", "LangChain"],
+            "name_zh": "AI智能体"
         },
         "投资": {
             "kols": ["chamath", "RayDalio", "jimcramer"],
-            "keywords": ["NVDA", "TSLA", "stock", "market", "Bitcoin"]
+            "keywords": ["NVDA", "TSLA", "stock", "market", "Bitcoin"],
+            "name_zh": "投资理财"
         },
         "科技": {
             "kols": ["elonmusk", "pmarca", "paulg"],
-            "keywords": ["SpaceX", "Tesla", "startup", "tech"]
+            "keywords": ["SpaceX", "Tesla", "startup", "tech"],
+            "name_zh": "科技动态"
         }
     }
     
@@ -76,7 +80,7 @@ class XTopicTracker:
     def generate_report(self):
         """生成报告"""
         print("=" * 70)
-        print(f"📈 X 话题追踪 | {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+        print(f"📈 X (Twitter) 热门话题追踪 | {datetime.now().strftime('%Y-%m-%d %H:%M')}")
         print("=" * 70)
         
         all_results = {}
@@ -90,42 +94,86 @@ class XTopicTracker:
             
             if matched:
                 all_results[category] = matched
-                print(f"  🔥 {category}: {len(matched)} 条匹配")
+                name_zh = config.get('name_zh', category)
+                print(f"  🔥 {name_zh}: {len(matched)} 条相关推文")
         
         # 保存报告
         self._save_report(all_results)
         return all_results
     
     def _save_report(self, results):
-        """保存报告"""
+        """保存中文报告"""
         date_str = datetime.now().strftime('%Y-%m-%d')
+        time_str = datetime.now().strftime('%H:%M')
         year = date_str[:4]
         month = date_str[5:7]
         
         os.makedirs(f'../reports/{year}/{month}', exist_ok=True)
         
-        content = f"""# X 话题追踪 | {date_str}
+        content = f"""# 📱 X (Twitter) 热门话题追踪 | {date_str} {time_str}
+
+> 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
+
+---
+
+## 📊 今日概览
 
 """
         
+        if results:
+            content += "| 类别 | 相关推文数 |\n"
+            content += "|------|-----------|\n"
+            for category, tweets in results.items():
+                config = self.TOPICS.get(category, {})
+                name_zh = config.get('name_zh', category)
+                content += f"| {name_zh} | {len(tweets)} 条 |\n"
+        else:
+            content += "*今日暂无匹配内容*\n"
+        
+        content += "\n---\n\n"
+        
         for category, tweets in results.items():
-            content += f"\n## 🔹 {category}\n\n"
-            for t in tweets[:5]:
-                text = t['text'].replace('\n', ' ')[:150]
-                if len(t['text']) > 150:
-                    text += '...'
-                content += f"**@{t['username']}** ({t.get('keyword', 'general')}):\n{text}\n\n"
+            config = self.TOPICS.get(category, {})
+            name_zh = config.get('name_zh', category)
+            
+            content += f"## 🔥 {name_zh}\n\n"
+            content += f"*关键词: {', '.join(config.get('keywords', [])[:5])}*\n\n"
+            
+            for i, t in enumerate(tweets[:8], 1):
+                text = t['text'].replace('\n', ' ')
+                # 保留原文，但截断显示
+                if len(text) > 200:
+                    display_text = text[:200] + '...'
+                else:
+                    display_text = text
+                
+                keyword = t.get('keyword', 'general')
+                content += f"**{i}. @{t['username']}** [匹配: {keyword}]\n"
+                content += f"> {display_text}\n\n"
         
         if not results:
-            content += "*暂无匹配内容*\n"
+            content += "## 📭 无数据\n\n"
+            content += "今日暂无匹配的推文内容。\n"
         
-        content += f"\n---\n*生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n"
+        content += f"""
+---
+
+## 📌 说明
+
+- **数据来源**: X (Twitter) via Nitter RSS
+- **更新时间**: {datetime.now().strftime('%Y年%m月%d日 %H:%M')}
+- **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
+- **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
+
+---
+*本报告由 OpenClaw 自动生成*
+"""
         
         path = f'../reports/{year}/{month}/topics-latest.md'
         with open(path, 'w', encoding='utf-8') as f:
             f.write(content)
         
-        print(f"\n✅ 报告已保存: {path}")
+        print(f"\n✅ 中文报告已保存: {path}")
 
 if __name__ == "__main__":
     tracker = XTopicTracker()
