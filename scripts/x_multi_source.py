@@ -249,10 +249,12 @@ class XMultiSource:
         
         content += f"\n---\n*数据来源: Nitter RSS + X Cookie | 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n"
         
-        # 保存
+        # 保存 - 使用绝对路径确保在 cron 中也能正确工作
         import os
-        os.makedirs(f'../reports/{year}/{month}', exist_ok=True)
-        path = f'../reports/{year}/{month}/multi-source-{date_str}.md'
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        reports_dir = os.path.join(base_dir, 'reports')
+        os.makedirs(f'{reports_dir}/{year}/{month}', exist_ok=True)
+        path = f'{reports_dir}/{year}/{month}/multi-source-{date_str}.md'
         
         with open(path, 'w', encoding='utf-8') as f:
             f.write(content)
