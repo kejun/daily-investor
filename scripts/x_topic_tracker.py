@@ -56,6 +56,7 @@ class XTopicTracker:
                     tweets.append({
                         'username': username,
                         'text': t.get('text', ''),
+                        'link': t.get('link', ''),
                         'category': category
                     })
                 time.sleep(random.uniform(0.5, 1))
@@ -148,8 +149,16 @@ class XTopicTracker:
                     display_text = text
                 
                 keyword = t.get('keyword', 'general')
+                link = t.get('link', '')
+                # 将 nitter 链接转换为 x.com 链接
+                if link and 'nitter' in link:
+                    link = link.replace('nitter.net', 'x.com').replace('nitter.privacydev.net', 'x.com')
+                
                 content += f"**{i}. @{t['username']}** [匹配: {keyword}]\n"
-                content += f"> {display_text}\n\n"
+                content += f"> {display_text}\n"
+                if link:
+                    content += f"📎 [原文链接]({link})\n"
+                content += "\n"
         
         if not results:
             content += "## 📭 无数据\n\n"
