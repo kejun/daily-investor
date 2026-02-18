@@ -2,15 +2,15 @@
 
 ## 🔥 热门标签
 
-1. **#m** - 8 次提及
+1. **#m** - 7 次提及
 2. **#principleoftheday** - 2 次提及
 3. **#10** - 1 次提及
 4. **#IBDpartner** - 1 次提及
 
 ## 👥 热门提及
 
-1. **@markminervini** - 3 次
-2. **@bgurley** - 2 次
+1. **@bgurley** - 2 次
+2. **@markminervini** - 2 次
 3. **@JasonKoon** - 1 次
 4. **@elonmusk** - 1 次
 5. **@chamath** - 1 次
@@ -43,4 +43,4 @@ Discuss your issues until you are in sync with each other or until you understan
 
 
 ---
-*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-18 15:01*
+*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-18 21:03*
