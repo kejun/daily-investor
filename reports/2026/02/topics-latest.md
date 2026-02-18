@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-02-18 12:00
+# 📱 X (Twitter) 热门话题追踪 | 2026-02-18 18:00
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -9,8 +9,8 @@
 | 类别 | 相关推文数 |
 |------|-----------|
 | 人工智能 | 4 条 |
-| AI智能体 | 2 条 |
-| 投资理财 | 2 条 |
+| AI智能体 | 1 条 |
+| 投资理财 | 1 条 |
 | 科技动态 | 1 条 |
 
 ---
@@ -40,12 +40,8 @@
 *关键词: MCP, Agent, LangChain*
 
 **1. @hwchase17** [匹配: Agent]
-> Building a System for Agent Self Verification: Some folks asked about the ONE thing for good harness building from the blog there’s no one thing, but I suggest starting with: “how to build a self-veri...
-📎 [原文链接](https://x.com/Vtrivedy10/status/2023918215936553355#m)
-
-**2. @hwchase17** [匹配: Agent]
-> Excited to be participating in @LangChain 's Interrupt 2026! If you're building with agents, this is the place to be at. Come talk with me and the @CopilotKit team about building fullstack agentic app...
-📎 [原文链接](https://x.com/ataiiam/status/2023886462375326096#m)
+> hell yea @zeddotdev @LangChain Harrison Chase (@hwchase17) ACP is my dark-horse contender for the next protocol to explode You can now easily spin up an ACP server for any deep agent! — https://nitter...
+📎 [原文链接](https://x.com/sonyatweetybird/status/2023981740784775452#m)
 
 ## 🔥 投资理财
 
@@ -54,10 +50,6 @@
 **1. @jimcramer** [匹配: stock]
 > one of my favorite bullish patterns The Wall Street Journal (@WSJ) Amazon.com and Nvidia clawed back early losses to finish the day in the green. The three major stock indexes each rose 0.1%. on.wsj.c...
 📎 [原文链接](https://x.com/jimcramer/status/2023872555539722648#m)
-
-**2. @jimcramer** [匹配: NVDA]
-> surprise announcement from Meta about huge commitment to Nvidia --i think those who want to build their own chips may have to worry about allocations.. the smugness toward NVDA by any and all is tires...
-📎 [原文链接](https://x.com/jimcramer/status/2023872409267564764#m)
 
 ## 🔥 科技动态
 
@@ -73,7 +65,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年02月18日 12:00
+- **更新时间**: 2026年02月18日 18:00
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
