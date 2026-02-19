@@ -50,38 +50,70 @@ const STOCKS = {
   }
 };
 
-// 模拟市场数据 (当 API 失败时使用)
-const SIMULATED_DATA = {
+// 基础模拟数据 (会添加小幅随机波动)
+const BASE_SIMULATED_DATA = {
   us: {
-    '^GSPC': { price: 5850, change: 0.3, volume: 3200000000 },
-    '^IXIC': { price: 18200, change: 0.5, volume: 4500000000 },
-    '^DJI': { price: 42800, change: 0.2, volume: 2800000000 },
-    'AAPL': { price: 225, change: 1.2, volume: 52000000 },
-    'NVDA': { price: 118, change: 2.5, volume: 280000000 },
-    'MSFT': { price: 415, change: 0.8, volume: 18000000 },
-    'GOOGL': { price: 175, change: -0.3, volume: 22000000 },
-    'TSLA': { price: 248, change: -1.5, volume: 95000000 },
-    'META': { price: 520, change: 1.1, volume: 12000000 }
+    '^GSPC': { price: 5850, baseChange: 0.3 },
+    '^IXIC': { price: 18200, baseChange: 0.5 },
+    '^DJI': { price: 42800, baseChange: 0.2 },
+    'AAPL': { price: 225, baseChange: 1.2 },
+    'NVDA': { price: 118, baseChange: 2.5 },
+    'MSFT': { price: 415, baseChange: 0.8 },
+    'GOOGL': { price: 175, baseChange: -0.3 },
+    'TSLA': { price: 248, baseChange: -1.5 },
+    'META': { price: 520, baseChange: 1.1 }
   },
   cn: {
-    '000001.SS': { price: 3350, change: 0.15, volume: 280000000 },
-    '399001.SS': { price: 10800, change: 0.25, volume: 350000000 },
-    '399006.SS': { price: 2150, change: 0.8, volume: 180000000 },
-    '000300.SS': { price: 3850, change: 0.2, volume: 220000000 },
-    '600519.SS': { price: 1680, change: -0.5, volume: 8500000 },
-    '300750.SZ': { price: 258, change: 1.8, volume: 12000000 }
+    '000001.SS': { price: 3350, baseChange: 0.15 },
+    '399001.SS': { price: 10800, baseChange: 0.25 },
+    '399006.SS': { price: 2150, baseChange: 0.8 },
+    '000300.SS': { price: 3850, baseChange: 0.2 },
+    '600519.SS': { price: 1680, baseChange: -0.5 },
+    '300750.SZ': { price: 258, baseChange: 1.8 }
   },
   hk: {
-    '^HSI': { price: 21500, change: 0.4, volume: 95000000 },
-    '^HSCEI': { price: 7800, change: 0.6, volume: 120000000 },
-    '^HSTECH': { price: 5200, change: 1.2, volume: 85000000 },
-    '0700.HK': { price: 425, change: 1.5, volume: 18000000 },
-    '9988.HK': { price: 128, change: 0.8, volume: 22000000 },
-    '3690.HK': { price: 185, change: 2.1, volume: 15000000 },
-    '1810.HK': { price: 28, change: -0.5, volume: 35000000 },
-    '1211.HK': { price: 268, change: 1.2, volume: 8500000 }
+    '^HSI': { price: 21500, baseChange: 0.4 },
+    '^HSCEI': { price: 7800, baseChange: 0.6 },
+    '^HSTECH': { price: 5200, baseChange: 1.2 },
+    '0700.HK': { price: 425, baseChange: 1.5 },
+    '9988.HK': { price: 128, baseChange: 0.8 },
+    '3690.HK': { price: 185, baseChange: 2.1 },
+    '1810.HK': { price: 28, baseChange: -0.5 },
+    '1211.HK': { price: 268, baseChange: 1.2 }
   }
 };
+
+// 生成带随机波动的模拟数据
+function getSimulatedData(symbol) {
+  for (const [market, stocks] of Object.entries(BASE_SIMULATED_DATA)) {
+    if (stocks[symbol]) {
+      const base = stocks[symbol];
+      // 添加 -0.2% 到 +0.2% 的随机波动
+      const randomFluctuation = (Math.random() - 0.5) * 0.4;
+      const change = parseFloat((base.baseChange + randomFluctuation).toFixed(2));
+      
+      return {
+        symbol,
+        price: base.price,
+        change: change,
+        volume: Math.floor(Math.random() * 100000000) + 10000000,
+        currency: market === 'us' ? 'USD' : 'CNY',
+        source: 'simulated',
+        timestamp: Date.now()
+      };
+    }
+  }
+  
+  return {
+    symbol,
+    price: 100,
+    change: 0,
+    volume: 0,
+    currency: 'USD',
+    source: 'simulated',
+    timestamp: Date.now()
+  };
+}
 
 // 板块模拟数据
 const SECTOR_DATA = {
@@ -164,33 +196,6 @@ async function fetchStockData(symbol, retries = 3) {
   console.log(`  📝 ${symbol}: 使用模拟数据`);
   apiStatus.fallbackToSimulated = true;
   return getSimulatedData(symbol);
-}
-
-// 获取模拟数据
-function getSimulatedData(symbol) {
-  // 在所有模拟数据中查找
-  for (const market of Object.values(SIMULATED_DATA)) {
-    if (market[symbol]) {
-      return {
-        symbol,
-        price: market[symbol].price,
-        change: market[symbol].change,
-        volume: market[symbol].volume,
-        currency: market === SIMULATED_DATA.us ? 'USD' : 'CNY',
-        source: 'simulated'
-      };
-    }
-  }
-  
-  // 默认值
-  return {
-    symbol,
-    price: 100,
-    change: 0,
-    volume: 0,
-    currency: 'USD',
-    source: 'simulated'
-  };
 }
 
 // 延迟函数
