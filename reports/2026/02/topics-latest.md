@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-02-19 18:01
+# 📱 X (Twitter) 热门话题追踪 | 2026-02-20 00:01
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -8,8 +8,9 @@
 
 | 类别 | 相关推文数 |
 |------|-----------|
-| 人工智能 | 5 条 |
+| 人工智能 | 4 条 |
 | AI智能体 | 1 条 |
+| 投资理财 | 1 条 |
 
 ---
 
@@ -30,20 +31,24 @@
 📎 [原文链接](https://x.com/karpathy/status/2022041235188580788#m)
 
 **4. @ylecun** [匹配: AI]
-> This is the interview Donald Trump didn’t want you to see. His FCC refused to air my interview with Stephen Colbert. Trump is worried we’re about to flip Texas. Video
-📎 [原文链接](https://x.com/jamestalarico/status/2023659473466687994#m)
-
-**5. @ylecun** [匹配: AI]
-> Mark Kelly on Donald Trump: “I think he was a horrible and failed president in his first term. Then he got re-elected, as a convicted felon, by the way. I think he has exceeded all expectations about ...
-📎 [原文链接](https://x.com/MarcoFoster_/status/2023883644360856027#m)
+> This is what happens when the U.S. Supreme Court declares an unlimited First Amendment right to make political contributions. nitter.net/ianbremmer/status/2024… ian bremmer (@ianbremmer) are us electi...
+📎 [原文链接](https://x.com/KenRoth/status/2024280872422142281#m)
 
 ## 🔥 AI智能体
 
 *关键词: MCP, Agent, LangChain*
 
 **1. @hwchase17** [匹配: Agent]
-> 🎉 New in 𝚍𝚎𝚎𝚙𝚊𝚐𝚎𝚗𝚝𝚜 v1.8.0 📦 🔧 LocalShellBackend — give AI agents direct filesystem + shell access. Perfect for coding assistants and dev tools running in containers, VMs, or CI. 🧠 Smarter summarizati...
-📎 [原文链接](https://x.com/LangChain_JS/status/2024221886851506512#m)
+> “Harness Engineer” is the hottest new role in tech What is a harness? Like the name implies, it’s a structure wrapper around an agent to ensure it performs the way you want it to What does a “harness ...
+📎 [原文链接](https://x.com/KSimback/status/2024098457099645239#m)
+
+## 🔥 投资理财
+
+*关键词: NVDA, TSLA, stock, market, Bitcoin*
+
+**1. @RayDalio** [匹配: market]
+> I Love and Endorse the Bipartisan 3 % of GDP Budget Deficit Solution In the House of Representatives there is now a bipartisan bill in the works to enact, and a growing agreement that we need, a 3% ca...
+📎 [原文链接](https://x.com/RayDalio/status/2024496272665702655#m)
 
 
 ---
@@ -51,7 +56,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年02月19日 18:01
+- **更新时间**: 2026年02月20日 00:01
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
