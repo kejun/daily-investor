@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-02-23 00:01
+# 📱 X (Twitter) 热门话题追踪 | 2026-02-23 06:01
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -9,7 +9,7 @@
 | 类别 | 相关推文数 |
 |------|-----------|
 | 人工智能 | 3 条 |
-| AI智能体 | 1 条 |
+| AI智能体 | 2 条 |
 
 ---
 
@@ -34,8 +34,12 @@
 *关键词: MCP, Agent, LangChain*
 
 **1. @hwchase17** [匹配: Agent]
-> This is exactly what the traces showed in the side-by-side comparison Same model, two harnesses, same prompt, completely different behavior One searched for files before reading them even when the fil...
-📎 [原文链接](https://x.com/GitMaxd/status/2025382068365263343#m)
+> Ahead of @LangChain Interrupt, @focused_dot_io is dropping a new customer‑proven use case every week each with a working repo, a blog post, and LangSmith evals. First up: Parallel Agents focused.io/la...
+📎 [原文链接](https://x.com/austinbv/status/2025240913019371992#m)
+
+**2. @hwchase17** [匹配: Agent]
+> 🌟 LangSmith Insights Agent 🌟 Use LangSmith Insights to group traces and find emergent usage patterns of your agents 🔎 Now with the ability to set a schedule and run recurring jobs! Docs: docs.langchai...
+📎 [原文链接](https://x.com/LangChain/status/2025612841819025834#m)
 
 
 ---
@@ -43,7 +47,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年02月23日 00:01
+- **更新时间**: 2026年02月23日 06:01
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
