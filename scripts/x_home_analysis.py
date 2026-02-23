@@ -15,10 +15,6 @@ from datetime import datetime, timezone
 from collections import Counter
 import re
 import os
-from dotenv import load_dotenv
-
-# 加载环境变量（Cookie）
-load_dotenv('../.env.cookie')
 
 class XHomeAnalyzer:
     """X 首页内容分析器"""
@@ -26,10 +22,22 @@ class XHomeAnalyzer:
     def __init__(self):
         self.session = requests.Session()
         
-        # 从环境变量加载 Cookie
-        self.auth_token = os.getenv('X_AUTH_TOKEN', '')
-        self.ct0 = os.getenv('X_CT0', '')
-        self.twid = os.getenv('X_TWID', 'u=16020505')
+        # 从 .env.cookie 文件加载 Cookie
+        self.auth_token = ''
+        self.ct0 = ''
+        self.twid = 'u=16020505'
+        
+        env_file = os.path.join(os.path.dirname(__file__), '../.env.cookie')
+        if os.path.exists(env_file):
+            with open(env_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith('X_AUTH_TOKEN='):
+                        self.auth_token = line.split('=', 1)[1]
+                    elif line.startswith('X_CT0='):
+                        self.ct0 = line.split('=', 1)[1]
+                    elif line.startswith('X_TWID='):
+                        self.twid = line.split('=', 1)[1]
         
         if not self.auth_token or not self.ct0:
             print("⚠️ 警告：未找到 X Cookie，将使用演示模式")
