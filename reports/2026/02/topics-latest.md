@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-02-24 00:01
+# 📱 X (Twitter) 热门话题追踪 | 2026-02-24 06:01
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -30,13 +30,13 @@
 
 *关键词: MCP, Agent, LangChain*
 
-**1. @hwchase17** [匹配: Agent]
-> How Exa built a production-ready deep research agent with LangSmith and LangGraph 👀 Exa, known for their fast, high-quality search API, has a deep research agent that delivers structured answers on th...
-📎 [原文链接](https://x.com/LangChain/status/2025744946494345570#m)
+**1. @hwchase17** [匹配: MCP]
+> 🔥 Hot take: API reference docs shouldn't be built for humans anymore. So we built reference.langchain.com for agents first — MCP server, llms.txt, machine-readable content negotiation on every page. T...
+📎 [原文链接](https://x.com/bromann/status/2026026309173031361#m)
 
-**2. @hwchase17** [匹配: Agent]
-> Went looking for what "only changed the harness" actually means in code One PR caught my eye 👀 Inline prompt strings -> a 239-line system_prompt.md 4-step loop: Understand -> Build -> Test -> Verify T...
-📎 [原文链接](https://x.com/GitMaxd/status/2025725851695042595#m)
+**2. @jxnlco** [匹配: Agent]
+> the Responses API now supports WebSockets! this can make your agents run 30-40% faster, especially when they make a lot of tool calls OpenAI Developers (@OpenAIDevs) Introducing WebSockets in the Resp...
+📎 [原文链接](https://x.com/stevenheidel/status/2026026829388353578#m)
 
 ## 🔥 投资理财
 
@@ -52,7 +52,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年02月24日 00:01
+- **更新时间**: 2026年02月24日 06:01
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
