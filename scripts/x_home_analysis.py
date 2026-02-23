@@ -283,18 +283,20 @@ class XHomeAnalyzer:
 
 ## 🏆 Top 30 热度推文
 
-| 排名 | 作者 | 内容摘要 | 点赞 | 转推 | 回复 | 热度 | 来源 |
-|------|------|----------|------|------|------|------|------|
 """
         
         for i, tweet in enumerate(top_tweets, 1):
-            text_preview = tweet['text'][:40] + '...' if len(tweet['text']) > 40 else tweet['text']
+            text_preview = tweet['text'][:100].replace('\n', ' ') + '...' if len(tweet['text']) > 100 else tweet['text'].replace('\n', ' ')
             source_map = {
                 'for_you': '为你推荐',
                 'following': '正在关注',
                 'ai': 'AI 列表'
             }
-            report += f"| {i} | @{tweet['author']} | {text_preview} | {tweet['likes']} | {tweet['retweets']} | {tweet['replies']} | {tweet['heat_score']:.0f} | {source_map.get(tweet['source'], '?')} |\n"
+            tweet_url = f"https://x.com/{tweet['author']}/status/{tweet['id']}" if tweet.get('id') and not tweet['id'].startswith('for_you') else f"https://x.com/{tweet['author']}"
+            
+            report += f"**{i}. @{tweet['author']}** — 🔥{tweet['heat_score']:.0f} (👍{tweet['likes']} 🔄{tweet['retweets']} 💬{tweet['replies']}) _{source_map.get(tweet['source'], '?')}_\n"
+            report += f"> {text_preview}\n"
+            report += f"\n[查看原文 →]({tweet_url})\n\n"
         
         # 统计分析
         report += f"""

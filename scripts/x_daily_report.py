@@ -229,43 +229,53 @@ class XDailyReport:
             
             report += f"""
 ### 🔥 综合热度 TOP 10
-| 排名 | 作者 | 内容摘要 | 👍 | 🔄 | 💬 | 热度 |
-|------|------|----------|----|----|----|------|
+
 """
             for i, t in enumerate(self.x_top30[:10], 1):
-                text_preview = t['text'][:40].replace('\n', ' ') + '...' if len(t['text']) > 40 else t['text']
-                report += f"| {i} | @{t['author']} | {text_preview} | {t['likes']} | {t['retweets']} | {t['replies']} | {t['heat_score']:.0f} |\n"
+                text_preview = t['text'][:80].replace('\n', ' ') + '...' if len(t['text']) > 80 else t['text']
+                tweet_url = f"https://x.com/{t['author']}/status/{t['id']}" if t.get('id') else f"https://x.com/{t['author']}"
+                report += f"**{i}. @{t['author']}** — 🔥{t['heat_score']:.0f} (👍{t['likes']} 🔄{t['retweets']} 💬{t['replies']})\n"
+                report += f"> {text_preview}\n"
+                report += f"\n[查看原文 →]({tweet_url})\n\n"
             
             report += f"""
 ### 📌 分类精选
+
 **为你推荐**: {len(for_you)} 条 | **正在关注**: {len(following)} 条 | **AI 列表**: {len(ai_list)} 条
 
 """
             
             if for_you:
                 report += f"""**🔍 为你推荐亮点:**
+
 """
                 for t in for_you[:3]:
-                    text_preview = t['text'][:60].replace('\n', ' ') + '...' if len(t['text']) > 60 else t['text']
-                    report += f"- @{t['author']}: {text_preview} (🔥{t['heat_score']:.0f})\n"
-                report += "\n"
+                    text_preview = t['text'][:80].replace('\n', ' ') + '...' if len(t['text']) > 80 else t['text']
+                    tweet_url = f"https://x.com/{t['author']}/status/{t['id']}" if t.get('id') else f"https://x.com/{t['author']}"
+                    report += f"- **@{t['author']}**: {text_preview}\n"
+                    report += f"  \n  [查看原文 →]({tweet_url}) _🔥{t['heat_score']:.0f}_\n\n"
             
             if following:
                 report += f"""**👥 正在关注亮点:**
+
 """
                 for t in following[:3]:
-                    text_preview = t['text'][:60].replace('\n', ' ') + '...' if len(t['text']) > 60 else t['text']
-                    report += f"- @{t['author']}: {text_preview} (🔥{t['heat_score']:.0f})\n"
-                report += "\n"
+                    text_preview = t['text'][:80].replace('\n', ' ') + '...' if len(t['text']) > 80 else t['text']
+                    tweet_url = f"https://x.com/{t['author']}/status/{t['id']}" if t.get('id') else f"https://x.com/{t['author']}"
+                    report += f"- **@{t['author']}**: {text_preview}\n"
+                    report += f"  \n  [查看原文 →]({tweet_url}) _🔥{t['heat_score']:.0f}_\n\n"
             
             if ai_list:
                 report += f"""**🤖 AI 列表亮点:**
+
 """
                 for t in ai_list[:3]:
-                    text_preview = t['text'][:60].replace('\n', ' ') + '...' if len(t['text']) > 60 else t['text']
-                    report += f"- @{t['author']}: {text_preview} (🔥{t['heat_score']:.0f})\n"
+                    text_preview = t['text'][:80].replace('\n', ' ') + '...' if len(t['text']) > 80 else t['text']
+                    tweet_url = f"https://x.com/{t['author']}/status/{t['id']}" if t.get('id') else f"https://x.com/{t['author']}"
+                    report += f"- **@{t['author']}**: {text_preview}\n"
+                    report += f"  \n  [查看原文 →]({tweet_url}) _🔥{t['heat_score']:.0f}_\n\n"
         else:
-            report += f"""*暂无数据（Cookie 可能已过期，请参考 COOKIE_GUIDE.md 更新）*\n"""
+            report += f"""*暂无数据（Cookie 可能已过期，请参考 COOKIE_GUIDE.md 更新）*\n\n"""
         
         report += f"""
 ---
