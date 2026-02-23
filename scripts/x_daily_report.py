@@ -2,6 +2,8 @@
 """
 X 科技 & 财经日报生成器
 基于新模板格式
+
+集成 X 首页热度分析 Top 30
 """
 
 import os
@@ -13,16 +15,19 @@ from collections import defaultdict, Counter
 
 sys.path.insert(0, os.path.dirname(__file__))
 from fetch_nitter_v2 import NitterRSSClient
+from x_home_analysis import XHomeAnalyzer  # 导入首页分析器
 
 class XDailyReport:
     """X 日报生成器"""
     
     def __init__(self):
         self.nitter = NitterRSSClient()
+        self.x_analyzer = XHomeAnalyzer()  # 初始化 X 分析器
         self.date_str = datetime.now().strftime('%Y.%m.%d')
         self.all_tweets = []
         self.hashtags = Counter()
         self.mentions = Counter()
+        self.x_top30 = []  # 存储 X 首页 Top 30
     
     # KOL 配置
     KOLS = {
@@ -209,6 +214,58 @@ class XDailyReport:
         
         report += f"""* **实战 Tip：** 关注 LCP 优化和 Edge 渲染策略，性能优化仍是前端核心议题
 """
+        
+        report += f"""
+---
+
+## 🐦 X 首页热度 Top 30 (@kejunz)
+"""
+        
+        if self.x_top30:
+            # 按来源分类
+            for_you = [t for t in self.x_top30 if t.get('source') == 'for_you'][:10]
+            following = [t for t in self.x_top30 if t.get('source') == 'following'][:10]
+            ai_list = [t for t in self.x_top30 if t.get('source') == 'ai'][:10]
+            
+            report += f"""
+### 🔥 综合热度 TOP 10
+| 排名 | 作者 | 内容摘要 | 👍 | 🔄 | 💬 | 热度 |
+|------|------|----------|----|----|----|------|
+"""
+            for i, t in enumerate(self.x_top30[:10], 1):
+                text_preview = t['text'][:40].replace('\n', ' ') + '...' if len(t['text']) > 40 else t['text']
+                report += f"| {i} | @{t['author']} | {text_preview} | {t['likes']} | {t['retweets']} | {t['replies']} | {t['heat_score']:.0f} |\n"
+            
+            report += f"""
+### 📌 分类精选
+**为你推荐**: {len(for_you)} 条 | **正在关注**: {len(following)} 条 | **AI 列表**: {len(ai_list)} 条
+
+"""
+            
+            if for_you:
+                report += f"""**🔍 为你推荐亮点:**
+"""
+                for t in for_you[:3]:
+                    text_preview = t['text'][:60].replace('\n', ' ') + '...' if len(t['text']) > 60 else t['text']
+                    report += f"- @{t['author']}: {text_preview} (🔥{t['heat_score']:.0f})\n"
+                report += "\n"
+            
+            if following:
+                report += f"""**👥 正在关注亮点:**
+"""
+                for t in following[:3]:
+                    text_preview = t['text'][:60].replace('\n', ' ') + '...' if len(t['text']) > 60 else t['text']
+                    report += f"- @{t['author']}: {text_preview} (🔥{t['heat_score']:.0f})\n"
+                report += "\n"
+            
+            if ai_list:
+                report += f"""**🤖 AI 列表亮点:**
+"""
+                for t in ai_list[:3]:
+                    text_preview = t['text'][:60].replace('\n', ' ') + '...' if len(t['text']) > 60 else t['text']
+                    report += f"- @{t['author']}: {text_preview} (🔥{t['heat_score']:.0f})\n"
+        else:
+            report += f"""*暂无数据（Cookie 可能已过期，请参考 COOKIE_GUIDE.md 更新）*\n"""
         
         report += f"""
 ---

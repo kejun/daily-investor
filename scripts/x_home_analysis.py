@@ -5,6 +5,8 @@
 - 正在关注 (Following)  
 - AI 列表
 每个来源取前 200 条，总结热度最高的 30 条
+
+可集成到 RSS 日报中
 """
 
 import requests
@@ -12,15 +14,45 @@ import json
 from datetime import datetime, timezone
 from collections import Counter
 import re
+import os
+from dotenv import load_dotenv
+
+# 加载环境变量（Cookie）
+load_dotenv('../.env.cookie')
 
 class XHomeAnalyzer:
     """X 首页内容分析器"""
     
     def __init__(self):
         self.session = requests.Session()
+        
+        # 从环境变量加载 Cookie
+        self.auth_token = os.getenv('X_AUTH_TOKEN', '')
+        self.ct0 = os.getenv('X_CT0', '')
+        self.twid = os.getenv('X_TWID', 'u=16020505')
+        
+        if not self.auth_token or not self.ct0:
+            print("⚠️ 警告：未找到 X Cookie，将使用演示模式")
+            self.use_demo = True
+        else:
+            self.use_demo = False
+            self._setup_cookies()
+    
+    def _setup_cookies(self):
+        """配置 Cookie 和请求头"""
+        self.session.cookies.update({
+            'auth_token': self.auth_token,
+            'ct0': self.ct0,
+            'twid': self.twid
+        })
+        
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
             'Accept': 'application/json',
+            'x-twitter-active-user': 'yes',
+            'x-twitter-client-language': 'en',
+            'x-csrf-token': self.ct0[:32] if self.ct0 else '',
+            'referer': 'https://twitter.com/'
         })
     
     def fetch_home_timeline(self, timeline_type='for_you', count=200):
@@ -33,25 +65,130 @@ class XHomeAnalyzer:
         """
         print(f"📡 正在获取 {timeline_type} 时间线...")
         
-        # 使用 Nitter RSS 作为备用方案
-        # 注意：由于 API 限制，这里使用模拟数据演示
-        # 实际使用时需要配置正确的 API 或 Cookie
+        if self.use_demo:
+            # 演示模式
+            tweets = self._generate_sample_tweets(timeline_type, count)
+            print(f"  ℹ️ 演示模式：生成 {len(tweets)} 条模拟推文")
+            return tweets
         
+        try:
+            # 真实 API 调用
+            tweets = self._fetch_real_tweets(timeline_type, count)
+            print(f"  ✅ 获取 {len(tweets)} 条推文")
+            return tweets
+        except Exception as e:
+            print(f"  ⚠️ API 失败：{e}")
+            print(f"  ℹ️ 切换到演示模式")
+            self.use_demo = True
+            return self._generate_sample_tweets(timeline_type, count)
+    
+    def _fetch_real_tweets(self, timeline_type, count):
+        """获取真实推文（需要有效 Cookie）"""
+        # GraphQL API 端点
+        features = {
+            "rweb_lists_timeline_redesign_enabled": True,
+            "responsive_web_graphql_exclude_directive_enabled": True,
+            "verified_phone_label_enabled": False,
+            "creator_subscriptions_tweet_preview_api_enabled": True,
+            "responsive_web_graphql_timeline_navigation_enabled": True,
+            "responsive_web_graphql_skip_user_profile_image_extensions_enabled": False,
+            "tweetypie_unmention_optimization_enabled": True,
+            "responsive_web_edit_tweet_api_enabled": True,
+            "graphql_is_translatable_rweb_tweet_is_translatable_enabled": True,
+            "view_counts_everywhere_api_enabled": True,
+            "longform_notetweets_consumption_enabled": True,
+            "tweet_awards_web_tipping_enabled": False,
+            "freedom_of_speech_not_reach_fetch_enabled": True,
+            "standardized_nudges_misinfo": True,
+            "longform_notetweets_rich_text_read_enabled": True,
+            "responsive_web_enhance_cards_enabled": False
+        }
+        
+        # 根据不同类型选择查询
+        query_ids = {
+            'for_you': 'HomeTimeline',
+            'following': 'HomeLatestTimeline',
+            'ai': 'ListLatestTweetsTimeline'  # AI 列表需要用 List ID
+        }
+        
+        query_id = query_ids.get(timeline_type, 'HomeTimeline')
+        
+        # 构建请求
+        variables = {
+            'count': min(count, 200),
+            'includePromotedContent': True,
+            'withCommunity': False,
+            'quickPromoteEligibilityTweetFields': False,
+            'voice': False,
+            'withV2Timeline': True
+        }
+        
+        url = f'https://api.x.com/graphql/{query_id}'
+        params = {
+            'variables': json.dumps(variables),
+            'features': json.dumps(features)
+        }
+        
+        response = self.session.get(url, params=params, timeout=30)
+        response.raise_for_status()
+        
+        data = response.json()
+        
+        # 解析响应
+        tweets = self._parse_graphql_response(data, timeline_type)
+        return tweets[:count]
+    
+    def _parse_graphql_response(self, data, timeline_type):
+        """解析 GraphQL 响应"""
         tweets = []
         
-        # 模拟数据结构（实际应调用 API）
-        if timeline_type == 'for_you':
-            # 为你推荐：混合内容
-            tweets = self._generate_sample_tweets('for_you', count)
-        elif timeline_type == 'following':
-            # 正在关注
-            tweets = self._generate_sample_tweets('following', count)
-        elif timeline_type == 'ai':
-            # AI 相关内容
-            tweets = self._generate_sample_tweets('ai', count)
+        try:
+            instructions = data['data']['home']['home_timeline_urt']['instructions']
+            
+            for instruction in instructions:
+                if instruction.get('type') == 'TimelineAddEntries':
+                    for entry in instruction.get('entries', []):
+                        tweet = self._extract_tweet(entry, timeline_type)
+                        if tweet:
+                            tweets.append(tweet)
+        except (KeyError, IndexError) as e:
+            print(f"  解析错误：{e}")
         
-        print(f"  ✅ 获取 {len(tweets)} 条推文")
         return tweets
+    
+    def _extract_tweet(self, entry, timeline_type):
+        """从 entry 中提取推文信息"""
+        try:
+            item_content = entry['content']['itemContent']
+            tweet_results = item_content.get('tweet_results', {}).get('result', {})
+            
+            if not tweet_results or tweet_results.get('__typename') != 'Tweet':
+                return None
+            
+            legacy = tweet_results.get('legacy', {})
+            core = tweet_results.get('core', {}).get('user_results', {}).get('result', {})
+            
+            # 计算热度分数
+            likes = legacy.get('favorite_count', 0)
+            retweets = legacy.get('retweet_count', 0)
+            replies = legacy.get('reply_count', 0)
+            heat_score = likes + retweets * 1.5 + replies * 2
+            
+            tweet = {
+                'id': tweet_results.get('rest_id', ''),
+                'text': legacy.get('full_text', ''),
+                'author': core.get('legacy', {}).get('screen_name', 'unknown'),
+                'created_at': legacy.get('created_at', ''),
+                'likes': likes,
+                'retweets': retweets,
+                'replies': replies,
+                'heat_score': heat_score,
+                'source': timeline_type
+            }
+            
+            return tweet
+        except (KeyError, TypeError) as e:
+            return None
     
     def _generate_sample_tweets(self, timeline_type, count):
         """生成示例推文（用于演示）"""
