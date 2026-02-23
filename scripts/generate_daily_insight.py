@@ -33,22 +33,6 @@ def generate_insight_report(date_str=None):
         print(f"⚠️ Finnhub 初始化失败：{e}")
         finnhub = None
     
-    # 获取市场数据
-    market_data = {}
-    if finnhub:
-        try:
-            # 美股主要指数
-            overview = get_market_overview(finnhub)
-            market_data['us_indices'] = overview
-            
-            # 热门个股
-            stocks = ['NVDA', 'AAPL', 'TSLA', 'META', 'MSFT', 'GOOGL', 'AMD']
-            performance = get_stocks_performance(finnhub, stocks)
-            market_data['us_stocks'] = performance
-        except Exception as e:
-            print(f"⚠️ 市场数据获取失败：{e}")
-            market_data = {}
-    
     # 初始化中国股市客户端
     try:
         cn_client = CNMarketClient()
@@ -243,7 +227,125 @@ def generate_insight_report(date_str=None):
                 sign = '+' if data['change_percent'] > 0 else ''
                 report += f"| {symbol} | {data['name']} | {data['current']:.2f} | {sign}{data['change_percent']:.2f}% |\n"
     
+    # ========== 投资分析部分 ==========
     report += f"""
+---
+
+## 🧠 投资分析与模拟交易
+
+### 市场情绪分析
+"""
+    
+    # 计算综合情绪指标
+    us_sentiment = "中性"
+    a_sentiment = "中性"
+    hk_sentiment = "中性"
+    
+    if us_leaders and us_laggards:
+        us_score = len(us_leaders) - len(us_laggards)
+        us_sentiment = "🟢 乐观" if us_score > 2 else ("🔴 悲观" if us_score < -2 else "🟡 中性")
+    
+    if a_leaders and a_laggards:
+        a_score = len(a_leaders) - len(a_laggards)
+        a_sentiment = "🟢 乐观" if a_score > 2 else ("🔴 悲观" if a_score < -2 else "🟡 中性")
+    
+    if hk_leaders and hk_laggards:
+        hk_score = len(hk_leaders) - len(hk_laggards)
+        hk_sentiment = "🟢 乐观" if hk_score > 2 else ("🔴 悲观" if hk_score < -2 else "🟡 中性")
+    
+    report += f"| 市场 | 情绪指标 | 领涨股 | 领跌股 |\n"
+    report += f"|------|----------|--------|--------|\n"
+    report += f"| 美股 | {us_sentiment} | {len(us_leaders)}只 | {len(us_laggards)}只 |\n"
+    report += f"| A 股 | {a_sentiment} | {len(a_leaders)}只 | {len(a_laggards)}只 |\n"
+    report += f"| 港股 | {hk_sentiment} | {len(hk_leaders)}只 | {len(hk_laggards)}只 |\n"
+    
+    report += f"""
+### 板块轮动观察
+"""
+    
+    # 科技股表现
+    tech_stocks = []
+    if market_data.get('us_stocks'):
+        for sym in ['NVDA', 'AAPL', 'META', 'GOOGL', 'MSFT']:
+            if sym in market_data['us_stocks'] and market_data['us_stocks'][sym]:
+                tech_stocks.append((sym, market_data['us_stocks'][sym]['change_percent']))
+        
+        if tech_stocks:
+            avg_tech = sum(p for _, p in tech_stocks) / len(tech_stocks)
+            sign = '+' if avg_tech > 0 else ''
+            report += f"**科技板块**：平均 {sign}{avg_tech:.2f}% — "
+            if avg_tech > 2:
+                report += "强势上涨，资金持续流入 AI 与云计算\n"
+            elif avg_tech > 0:
+                report += "温和上涨，震荡整理格局\n"
+            else:
+                report += "回调压力，注意风险控制\n"
+    
+    # 中概股表现
+    china_tech = []
+    if market_data.get('hk_stocks'):
+        for sym in ['00700', '09988', '03690', '01810']:
+            if sym in market_data['hk_stocks'] and market_data['hk_stocks'][sym]:
+                china_tech.append((sym, market_data['hk_stocks'][sym]['change_percent']))
+        
+        if china_tech:
+            avg_china = sum(p for _, p in china_tech) / len(china_tech)
+            sign = '+' if avg_china > 0 else ''
+            report += f"**中概科技**：平均 {sign}{avg_china:.2f}% — "
+            if avg_china > 3:
+                report += "强势反弹，政策面利好释放\n"
+            elif avg_china > 0:
+                report += "企稳回升，估值修复进行中\n"
+            else:
+                report += "承压调整，观望为主\n"
+    
+    report += f"""
+### 💰 模拟交易组合
+
+**初始资金**: ¥1,000,000 | **当前周期**: 第 1 日
+
+#### 今日操作建议
+"""
+    
+    # 生成交易信号
+    signals = []
+    
+    # 美股信号
+    if us_leaders and us_leaders[0][1] > 3:
+        signals.append(f"**买入** {us_leaders[0][0]} (突破 +{us_leaders[0][1]:.2f}%)")
+    if us_laggards and us_laggards[0][1] < -3:
+        signals.append(f"**观望** {us_laggards[0][0]} (回调 -{abs(us_laggards[0][1]):.2f}%)")
+    
+    # A 股信号
+    if a_leaders and a_leaders[0][2] > 2:
+        signals.append(f"**关注** {a_leaders[0][1]} (逆势上涨 +{a_leaders[0][2]:.2f}%)")
+    if a_laggards and a_laggards[0][2] < -2:
+        signals.append(f"**回避** {a_laggards[0][1]} (跌幅较大 -{abs(a_laggards[0][2]):.2f}%)")
+    
+    # 港股信号
+    if hk_leaders and hk_leaders[0][2] > 4:
+        signals.append(f"**买入** {hk_leaders[0][1]} (强势 +{hk_leaders[0][2]:.2f}%)")
+    
+    if signals:
+        for signal in signals[:5]:
+            report += f"- {signal}\n"
+    else:
+        report += "- 暂无明确信号，保持观望\n"
+    
+    report += f"""
+#### 持仓建议配置
+| 资产类别 | 建议仓位 | 理由 |
+|----------|----------|------|
+| 美股科技 | 30% | AI 浪潮持续，龙头公司业绩强劲 |
+| A 股蓝筹 | 20% | 估值低位，防御属性强 |
+| 港股科技 | 25% | 政策回暖，估值修复空间大 |
+| 现金/债券 | 25% | 保留灵活性，应对波动 |
+
+#### 风险提示
+- ⚠️ 美联储利率决议临近，警惕市场波动
+- ⚠️ A 股成交量萎缩，需观察增量资金
+- ⚠️ 地缘政治风险仍存，控制整体仓位
+
 ---
 
 ## 📅 本周前瞻
@@ -312,3 +414,8 @@ if __name__ == "__main__":
     # 支持命令行参数指定日期，默认今天
     date_arg = sys.argv[1] if len(sys.argv) > 1 else None
     generate_insight_report(date_arg)
+    
+    # 同时更新 latest
+    with open('../reports/2026/02/topics-latest.md', 'w', encoding='utf-8') as f:
+        f.write(open(f"../{date_arg[:4]}/{date_arg[5:7]}/{date_arg}.md", 'r', encoding='utf-8').read())
+    print("✅ 同时更新 topics-latest.md")
