@@ -2,43 +2,44 @@
 
 ## 🔥 热门标签
 
-1. **#m** - 9 次提及
-2. **#principleoftheday** - 4 次提及
+1. **#m** - 6 次提及
+2. **#2** - 1 次提及
+3. **#1** - 1 次提及
 
 ## 👥 热门提及
 
-1. **@elonmusk** - 2 次
-2. **@YouTube** - 2 次
-3. **@sahill_og** - 1 次
-4. **@theVCalmanac** - 1 次
-5. **@chamath** - 1 次
+1. **@YouTube** - 2 次
+2. **@BrianSozzi** - 1 次
+3. **@CNBC** - 1 次
+4. **@malmaladei** - 1 次
+5. **@Grok** - 1 次
 
 ## 💬 热门推文
 
-### @chamath
-California sits at the intersection of two extremes. On one end is a population of extremely smart, capable Californians that have helped build the 4t...
+### @jimcramer
+I think the banks come back first. They are NOT expensive...
 
-### @chamath
-It should be obvious to anyone that reads the list below that many of these companies will not survive as companies in a world of AI and Agents. These...
+### @jimcramer
+cold, early.. i am not worried. Anthropic has a solution. I read it in a report
 
-### @chamath
-In 2025, 25 data center projects were canceled due to community pushback. That’s up from just 6 in 2024 and 2 in 2023. The opposition is notably bipar...
+### @jimcramer
+I love the way they make stands, though, and then talk about the powerful BOUNCE! Brian Sozzi (@BrianSozzi) Bitcoin bear market🐻rages on. $436 million...
 
-### @chamath
-Facts. the VC almanac (@theVCalmanac) Chamath: Work-life balance is the worst thing happened to young people. "The first and most important thing is y...
+### @jimcramer
+One is superior than the other. Enough; buy one sell the other! CNBC (@CNBC) Novo Nordisk sinks 10% after weight loss drug fails to match Eli Lilly's ...
 
-### @chamath
-Wow. As mentioned on @theallinpod a few weeks ago, there is lots of decode silicon coming… Taalas Inc. (@taalas_inc) 24 dedicated people. $30M spent o...
+### @jimcramer
+Nazz down .65 on the usual nothing...
 
-### @RayDalio
-Most people seem much more eager to put out (convey their thinking and be productive) than to take in (learn). That's a mistake even if one's primary ...
+### @elonmusk
+Connect to reliable high-speed internet in minutes 🛰️❤️ Philipp M. W. Hoffmann (@malmaladei) Starlink is pure magic Every time I set it up I’m amazed ...
 
-### @RayDalio
-At the Munich Security Conference earlier this month, the post-1945 world order was pronounced dead by most leaders. German Chancellor Friedrich Merz ...
+### @elonmusk
+. @Grok is coming to Teslas in Australia and New Zealand It can answer almost any question using real-time information & also add/edit navigation dest...
 
-### @RayDalio
-Radical transparency forces issues to the surface—most importantly (and most uncomfortably) the problems that people are dealing with and how they’re ...
+### @elonmusk
+Yes Dr. David Wood (@Acts17David) Police were part of the rape gangs. — https://nitter.net/Acts17David/status/2025993656881012747#m
 
 
 ---
-*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-24 08:00*
+*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-24 09:00*
