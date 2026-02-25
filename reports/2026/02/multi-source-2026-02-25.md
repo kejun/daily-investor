@@ -9,11 +9,11 @@
 
 ## 👥 热门提及
 
-1. **@markminervini** - 2 次
-2. **@YouTube** - 2 次
-3. **@sahill_og** - 1 次
-4. **@rauchg** - 1 次
-5. **@v0** - 1 次
+1. **@YouTube** - 2 次
+2. **@sahill_og** - 1 次
+3. **@rauchg** - 1 次
+4. **@v0** - 1 次
+5. **@xai** - 1 次
 
 ## 💬 热门推文
 
@@ -43,4 +43,4 @@ x.com/i/article/202629569031…
 
 
 ---
-*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-25 08:00*
+*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-25 09:00*
