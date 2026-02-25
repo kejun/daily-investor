@@ -2,18 +2,16 @@
 
 ## 🔥 热门标签
 
-1. **#m** - 5 次提及
+1. **#m** - 4 次提及
 2. **#principleoftheday** - 2 次提及
-3. **#2** - 1 次提及
-4. **#1** - 1 次提及
 
 ## 👥 热门提及
 
 1. **@YouTube** - 2 次
 2. **@Geiger_Capital** - 1 次
-3. **@peteromallet** - 1 次
-4. **@RestoreBritain_** - 1 次
-5. **@HMDatMI** - 1 次
+3. **@grok** - 1 次
+4. **@peteromallet** - 1 次
+5. **@RestoreBritain_** - 1 次
 
 ## 💬 热门推文
 
@@ -36,11 +34,11 @@ California sits at the intersection of two extremes. On one end is a population 
 In some companies, employees hide their employer's mistakes, and employers do the same in return. This is unhealthy and stands in the way of improveme...
 
 ### @RayDalio
-Also, since there is a lot of interest in my investment principles, I am going to be passing them along over the coming weeks. If you want to be notif...
+Last week, I shared a chapter from my 2021 book Principles for Dealing with the Changing World Order that details the classic signs to watch for as th...
 
 ### @RayDalio
-Last week, I shared a chapter from my 2021 book Principles for Dealing with the Changing World Order that details the classic signs to watch for as th...
+Also, since there is a lot of interest in my investment principles, I am going to be passing them along over the coming weeks. If you want to be notif...
 
 
 ---
-*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-25 15:00*
+*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-02-25 21:01*
