@@ -2,41 +2,44 @@
 
 ## 🔥 热门标签
 
-1. **#m** - 5 次提及
-2. **#IBDpartner** - 2 次提及
+1. **#m** - 11 次提及
+2. **#principleoftheday** - 3 次提及
+3. **#IBDpartner** - 2 次提及
 
 ## 👥 热门提及
 
 1. **@markminervini** - 3 次
-2. **@SnoopDegB** - 1 次
-3. **@StephenM** - 1 次
+2. **@theallinpod** - 1 次
+3. **@Jason** - 1 次
+4. **@chamath** - 1 次
+5. **@DavidSacks** - 1 次
 
 ## 💬 热门推文
 
-### @jimcramer
-Before you freak out about how the US is mulling capping Chinese customers at 75,000 per customer remember that many of us have given up on China enti...
+### @chamath
+There should be a cost for frivolous lawsuits...especially when it stalls the will of the people and jeopardizes $100Bs of investments. The All-In Pod...
 
-### @jimcramer
-When those oil stocks turned as in 1991, it was the sign that the buyers could come back
+### @chamath
+Nice. Software Factory (@8090_Factory) Introducing Software Factory Stories Ep 1. Meet @chrisstrobl , Founder & CEO of gitflash.com . Here's his story...
 
-### @jimcramer
-We tested the lower limits when the futures fell 2%. I would expect another test given the fraught situation i described in my Investing Club letter f...
+### @chamath
+This is an important moment for all companies: By picking only one model, you absorb that model maker’s institutional biases and idiosyncrasies. If th...
 
-### @jimcramer
-This 2% decline is far more realistic considering that war could go on for longer than many think and we had many problems going into the weekend as i...
+### @chamath
+Wake up California! Apathetic voters have been towing the “party line” and voting in the same Party since 2011. Look at the results… When will you rea...
 
-### @jimcramer
-Where are the bears?? Come on down!
+### @chamath
+Smartphones + computers in class are having a negative effect on our kids’ test scores… Jonathan Haidt (@JonHaidt) More evidence that the global decli...
 
-### @elonmusk
+### @RayDalio
+This is a requirement. Being considerate means allowing other people to mostly do what they want, so long as it is consistent with our principles, pol...
 
+### @RayDalio
+Radical truth and radical transparency are fundamental to having a real idea meritocracy. The more people can see what is happening— the good, the bad...
 
-### @elonmusk
-Please don’t use ChatGPT Video
-
-### @elonmusk
-Drones are easy to make, hard to stop, and bring Mutually Assured Destruction to conventional warfare.
+### @RayDalio
+The answer doesn't have to be in your head; you can look outside yourself. If you're truly looking at things objectively, you must recognize that the ...
 
 
 ---
-*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-03-03 08:00*
+*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-03-03 09:00*
