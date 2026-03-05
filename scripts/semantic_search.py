@@ -29,10 +29,9 @@ TIDB_CONFIG = {
 }
 
 # 阿里云百炼 Embedding 配置
-# 优先使用环境变量，否则使用 Mock 模式
-DASHSCOPE_API_KEY = os.getenv('DASHSCOPE_API_KEY', '')
-EMBEDDING_MODEL = 'text-embedding-v3'
-EMBEDDING_DIM = 1024  # text-embedding-v3 的维度
+DASHSCOPE_API_KEY = os.getenv('DASHSCOPE_API_KEY', 'sk-64879b7fc80247828b2c8cb5b48b1be1')
+EMBEDDING_MODEL = 'text-embedding-v4'
+EMBEDDING_DIM = 1024  # text-embedding-v4 的维度
 
 # OpenRouter 配置（备用）
 OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY', '')
