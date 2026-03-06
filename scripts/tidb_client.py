@@ -19,8 +19,8 @@ CERT_PATH = os.path.expanduser('~/.openclaw/workspace/daily-investor/certs/isrgr
 TIDB_CONFIG = {
     'host': 'gateway01.us-west-2.prod.aws.tidbcloud.com',
     'port': 4000,
-    'user': '4EvGAgoxvaGEn92.root',
-    'password': 'DcJLdIwWtKYYgecJ',
+    'user': '1Au2q84rdJUCvma.root',
+    'password': 'sVeoJboT0M0NwO0c',
     'database': 'demo',
     'cursorclass': DictCursor,
     'ssl': {'ca': CERT_PATH}
