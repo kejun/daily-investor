@@ -1,0 +1,177 @@
+[
+  {
+    "username": "ylecun",
+    "category": "AI/LLM",
+    "text": "The Trump-Netanyahu bombing of Iran is providing a financial lifeline for the economically strapped Putin to support his invasion of Ukraine, as the bombing raises oil prices and provides an excuse for governments like India to purchase Russian oil. trib.al/nKM8v4E",
+    "link": "https://nitter.net/KenRoth/status/2029823675952742514#m",
+    "published": "Fri, 06 Mar 2026 07:"
+  },
+  {
+    "username": "ylecun",
+    "category": "AI/LLM",
+    "text": "Jobs report uniformly weak: 92K jobs lost (with job losses in almost every industry), household survey employment down too, unemployment rate up to 4.4%, participation down, avg weekly hours flat. Main sign in the other direction was strong wage growth.",
+    "link": "https://nitter.net/jasonfurman/status/2029929849897234785#m",
+    "published": "Fri, 06 Mar 2026 14:"
+  },
+  {
+    "username": "ylecun",
+    "category": "AI/LLM",
+    "text": "One of the clearest proofs that LLMs don’t really understand what they say. We asked GPT whether it is acceptable to torture a woman to prevent a nuclear apocalypse. It replied: yes. Then we asked whether it is acceptable to harass a woman to prevent a nuclear apocalypse. It repl",
+    "link": "https://nitter.net/ValerioCapraro/status/2029593915674771457#m",
+    "published": "Thu, 05 Mar 2026 16:"
+  },
+  {
+    "username": "ylecun",
+    "category": "AI/LLM",
+    "text": "We asked people around the world to rate the morality and ethics of others in their country. The U.S. is the only place we surveyed where more adults describe the morality and ethics of others living in the country as bad than good. See our full morality report here: pewresearch.",
+    "link": "https://nitter.net/pewresearch/status/2029574369291215029#m",
+    "published": "Thu, 05 Mar 2026 15:"
+  },
+  {
+    "username": "ylecun",
+    "category": "AI/LLM",
+    "text": "🚨BREAKING: Yann LeCun just dropped a paper that should make every AI lab rethink its roadmap. One brutal conclusion: chasing AGI is the wrong goal. Here’s why: → Humans aren’t general we’re survival specialists. → Walking and seeing feel “general” only because they keep us alive.",
+    "link": "https://nitter.net/socialwithaayan/status/2029885588783124703#m",
+    "published": "Fri, 06 Mar 2026 11:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "deepagents-cli==0.0.29 out now - MCP tool support - change model invocation params (e.g. thinking level) mid-session - custom hooks, e.g. peon ping - detect deceptive unicode in tool args and URLs try today! github.com/langchain-ai/deep…",
+    "link": "https://nitter.net/masondrxy/status/2030089925039620454#m",
+    "published": "Sat, 07 Mar 2026 01:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": ". @Toyota is at Interrupt. @ummadisetti and @kordelfrance on how Toyota Motor North America equipped 56,000 employees with ToyotaGPT, built on LangGraph. May 13–14 · San Francisco interrupt.langchain.com/",
+    "link": "https://nitter.net/LangChain/status/2030035358994554916#m",
+    "published": "Fri, 06 Mar 2026 21:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "You can now use zod, valibot, or arktype for any agent or structured output call! langchain now supports the Standard Schema spec - this means you can use any compliant validation library throughout langchain.",
+    "link": "https://nitter.net/LangChain_JS/status/2030001369240019106#m",
+    "published": "Fri, 06 Mar 2026 19:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "deepagents-cli==0.0.28 is out! - video support for multimodal inputs! - tab autocomplete in model selector - fuzzy search for slash commands - squashing some visual bugs github.com/langchain-ai/deep…",
+    "link": "https://nitter.net/masondrxy/status/2029702660979646769#m",
+    "published": "Thu, 05 Mar 2026 23:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "Catch us at @NVIDIAGTC in San Jose (March 16–19) 🟢 @hwchase17 on stage for: • 🎤 \"Open, Trusted, and Observable: Deploying AI Agents at Enterprise Scale\" on March 16th at 4PM PST. • 🎤 \"Open Models: Where We Are and Where We're Headed\" on March 18th at 12:30PM PST. + the LangChain ",
+    "link": "https://nitter.net/LangChain/status/2029640863379227061#m",
+    "published": "Thu, 05 Mar 2026 19:"
+  },
+  {
+    "username": "chamath",
+    "category": "投资/财经",
+    "text": "I don’t see how every CEO doesn’t internalize this and realize the same thing. You can’t bet your entire company on one model / model maker. But you also can’t blow your OpEx budget on rampant token consumption across multiple models and not see a real ROI. At least with software",
+    "link": "https://nitter.net/chamath/status/2030002154329841709#m",
+    "published": "Fri, 06 Mar 2026 19:"
+  },
+  {
+    "username": "chamath",
+    "category": "投资/财经",
+    "text": "This guy clapped at me. I clapped back. We then spoke. So I funded his two daughters’ college accounts. I hope the kids become better investors than their dad! But in all seriousness, I also think he was very mature in how he internalized our conversation. Onwards! Parabolic ⚫️🦢 ",
+    "link": "https://nitter.net/chamath/status/2029679323498909839#m",
+    "published": "Thu, 05 Mar 2026 22:"
+  },
+  {
+    "username": "chamath",
+    "category": "投资/财经",
+    "text": "I went home for lunch and now I’m stuck at home.",
+    "link": "https://nitter.net/chamath/status/2029673320690634954#m",
+    "published": "Thu, 05 Mar 2026 21:"
+  },
+  {
+    "username": "chamath",
+    "category": "投资/财经",
+    "text": "x.com/i/article/202964751809…",
+    "link": "https://nitter.net/chamath/status/2029650649819009211#m",
+    "published": "Thu, 05 Mar 2026 20:"
+  },
+  {
+    "username": "chamath",
+    "category": "投资/财经",
+    "text": "Just to add some color to the commentary about Anthropic and Cursor's revenue ramps, from the perspective of a customer. Since November 2025, our AI costs have more than tripled and we are now spending many millions per year trending to $10M+ per year. That, in and of itself, fee",
+    "link": "https://nitter.net/chamath/status/2029634071966666964#m",
+    "published": "Thu, 05 Mar 2026 19:"
+  },
+  {
+    "username": "elonmusk",
+    "category": "科技/创业",
+    "text": "X needs more Grok DJ catgirls 😎🎧 Video",
+    "link": "https://nitter.net/AdamLowisz/status/2030180882447749429#m",
+    "published": "Sat, 07 Mar 2026 07:"
+  },
+  {
+    "username": "elonmusk",
+    "category": "科技/创业",
+    "text": "\"Elon Musk still works incredibly hard. I visited him recently, I left around midnight and he was still working. I think he must have gone till 2am. I don't know anybody who works as hard as him.\" Elon works every waking hour, 7 days a week. That is why he wins. Video",
+    "link": "https://nitter.net/cb_doge/status/2030183261071430074#m",
+    "published": "Sat, 07 Mar 2026 07:"
+  },
+  {
+    "username": "elonmusk",
+    "category": "科技/创业",
+    "text": "xAI just dropped a Text to Speech API! 5 voices (eve, ara, rex, sal, leo), inline speech tags, WebSocket streaming, and format support from high-fidelity WAV all the way down to telephony mulaw. You can write things like: \"So I walked in and [pause] there it was. [laugh] I honest",
+    "link": "https://nitter.net/tetsuoai/status/2030186119724421628#m",
+    "published": "Sat, 07 Mar 2026 07:"
+  },
+  {
+    "username": "elonmusk",
+    "category": "科技/创业",
+    "text": "Grok Imagine gets better almost every day Mario Nawfal (@MarioNawfal) Grok Imagine Video is straight-up owning the Artificial Analysis Image-to-Video Arena leaderboard right now with that beastly 1,336 ELO score Source: @xDaily — https://nitter.net/MarioNawfal/status/203018039705",
+    "link": "https://nitter.net/elonmusk/status/2030187552997552253#m",
+    "published": "Sat, 07 Mar 2026 07:"
+  },
+  {
+    "username": "elonmusk",
+    "category": "科技/创业",
+    "text": "SpaceX Falcon 9 created this beautiful \"jellyfish\" glow on its way up to deploy 29 Starlink satellites on March 4",
+    "link": "https://nitter.net/XFreeze/status/2030181449593409578#m",
+    "published": "Sat, 07 Mar 2026 07:"
+  },
+  {
+    "username": "karan",
+    "category": "开发者工具",
+    "text": "Great to have @kelseyhightower visit @PaloAltoNtwks to share his insights on building and scaling k8s apps.",
+    "link": "https://nitter.net/karan/status/1599928361815769088#m",
+    "published": "Tue, 06 Dec 2022 00:"
+  },
+  {
+    "username": "karan",
+    "category": "开发者工具",
+    "text": "Really excited about this launch! Great write up by @jeffbarr on Palo Alto Networks Cloud NGFW for AWS. aws.amazon.com/blogs/aws/new…",
+    "link": "https://nitter.net/karan/status/1509226928187662345#m",
+    "published": "Wed, 30 Mar 2022 17:"
+  },
+  {
+    "username": "karan",
+    "category": "开发者工具",
+    "text": "The despair & desperation is heartbreaking!",
+    "link": "https://nitter.net/karan/status/1385834077454946308#m",
+    "published": "Sat, 24 Apr 2021 05:"
+  },
+  {
+    "username": "karan",
+    "category": "开发者工具",
+    "text": "Global friends; you can help India remotely 🌍. Please donate to one of these causes. Most accept foreign cards (and if not message me and I'll give you my PayPal and do it for you) + Twitter - pls tag more 1/n @Hemkunt_Fdn Delivering oxygen hemkuntfoundation.com/donate…",
+    "link": "https://nitter.net/i/status/1385433368674725899#m",
+    "published": "Fri, 23 Apr 2021 03:"
+  },
+  {
+    "username": "karan",
+    "category": "开发者工具",
+    "text": "Learn about large scale data ingestion using Istio/Envoy. Join Animesh @Ani_Chaturvedi talk, where he'll share the experience of building a data lake using Istio/Envoy. goo.gle/3b0anP1 Register! events.istio.io #Istio #ServiceMesh #CloudNative #observability",
+    "link": "https://nitter.net/IstioMesh/status/1361087765912379392#m",
+    "published": "Sun, 14 Feb 2021 22:"
+  }
+]
