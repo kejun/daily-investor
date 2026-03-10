@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-03-06 12:01
+# 📱 X (Twitter) 热门话题追踪 | 2026-03-10 18:01
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -8,9 +8,9 @@
 
 | 类别 | 相关推文数 |
 |------|-----------|
-| 人工智能 | 1 条 |
+| 人工智能 | 4 条 |
 | AI智能体 | 2 条 |
-| 投资理财 | 1 条 |
+| 投资理财 | 2 条 |
 | 科技动态 | 1 条 |
 
 ---
@@ -19,37 +19,53 @@
 
 *关键词: AI, LLM, GPT, Claude, OpenAI*
 
-**1. @ylecun** [匹配: AI]
-> made you the scatter plot you should have created in the first place.... claude.ai/public/artifacts/2…
-📎 [原文链接](https://x.com/rob3rtjohn/status/2029462368212877754#m)
+**1. @sama** [匹配: AI]
+> We just launched Codex Security! Probably a no-brainer for most teams to turn on. Some things I'm excited about it: - Agentic security review leveraging our SOTA models - Always on codebase scanning -...
+📎 [原文链接](https://x.com/rohanvarma/status/2030002820515291215#m)
+
+**2. @sama** [匹配: GPT]
+> GPT-5.4 is great at coding, knowledge work, computer use, etc, and it's nice to see how much people are enjoying it. But it's also my favorite model to talk to! We have missed the mark on model person...
+📎 [原文链接](https://x.com/sama/status/2030319489993298349#m)
+
+**3. @karpathy** [匹配: AI]
+> Three days ago I left autoresearch tuning nanochat for ~2 days on depth=12 model. It found ~20 changes that improved the validation loss. I tested these changes yesterday and all of them were additive...
+📎 [原文链接](https://x.com/karpathy/status/2031135152349524125#m)
+
+**4. @ylecun** [匹配: AI]
+> AMI Labs (@amilabs) Advanced Machine Intelligence (AMI) is building a new breed of AI systems that understand the world, have persistent memory, can reason and plan, and are controllable and safe. We’...
+📎 [原文链接](https://x.com/CSProfKGD/status/2031286174023622917#m)
 
 ## 🔥 AI智能体
 
 *关键词: MCP, Agent, LangChain*
 
-**1. @hwchase17** [匹配: Agent]
-> Catch us at @NVIDIAGTC in San Jose (March 16–19) 🟢 @hwchase17 on stage for: • 🎤 "Open, Trusted, and Observable: Deploying AI Agents at Enterprise Scale" on March 16th at 4PM PST. • 🎤 "Open Models: Whe...
-📎 [原文链接](https://x.com/LangChain/status/2029640863379227061#m)
+**1. @hwchase17** [匹配: LangChain]
+> Had fun working with the GTM team on this one. Lots of exciting levers to pull! LangChain (@LangChain) x.com/i/article/203084146082… — https://nitter.net/LangChain/status/2031055593360990358#m
+📎 [原文链接](https://x.com/vishsuresh_/status/2031139741077496025#m)
 
-**2. @hwchase17** [匹配: Agent]
-> ☕️ Building agents in Java or Go? We want to hear from you! Join the waitlist to get early access and help shape the future of LangGraph in your language. Sign up ➡️ airtable.com/appeUtF0AROUCZr…
-📎 [原文链接](https://x.com/LangChain_OSS/status/2029618081702502660#m)
+**2. @hwchase17** [匹配: LangChain]
+> If you work in GTM and your team is considering building something like this, would love to chat with you! LangChain (@LangChain) x.com/i/article/203084146082… — https://nitter.net/LangChain/status/20...
+📎 [原文链接](https://x.com/jeffbarg/status/2031178475881521415#m)
 
 ## 🔥 投资理财
 
 *关键词: NVDA, TSLA, stock, market, Bitcoin*
 
-**1. @RayDalio** [匹配: stock]
-> That is an old saying I learned in Hong Kong that is meant to convey that any place can become unsafe and that having the ability to go to other places is invaluable. It is a lesson from history that ...
-📎 [原文链接](https://x.com/RayDalio/status/2029235494685437990#m)
+**1. @chamath** [匹配: market]
+> This lays at the feet of all AI CEOs. We need to do better. Polymarket (@Polymarket) JUST IN: NBC News poll reveals AI favorability at just 26% — lower than ICE. — https://nitter.net/Polymarket/status...
+📎 [原文链接](https://x.com/chamath/status/2031028236935954688#m)
+
+**2. @jimcramer** [匹配: market]
+> The oil futures themselves are an imperfect lot. A $34 swing on a small commodity might be okay but on the most important one in the world, this market still doesn't have all the players it needs.
+📎 [原文链接](https://x.com/jimcramer/status/2031273740860801160#m)
 
 ## 🔥 科技动态
 
 *关键词: SpaceX, Tesla, startup, tech*
 
-**1. @paulg** [匹配: startup]
-> Startup School is back! Hear from Jensen Huang, @sama , @alexandr_wang , @JeffDean , and more. Join a hand-selected group of top CS students, researchers, and engineers for two days of talks, sessions...
-📎 [原文链接](https://x.com/ycombinator/status/2029572646661402771#m)
+**1. @pmarca** [匹配: startup]
+> Alpha! Lenny Rachitsky (@lennysan) My biggest takeaways from @qasar : 1. The real AI revolution over the next 5 to 10 years will happen in the physical world, not in software. While everyone obsesses ...
+📎 [原文链接](https://x.com/pmarca/status/2031116702646432056#m)
 
 
 ---
@@ -57,7 +73,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年03月06日 12:01
+- **更新时间**: 2026年03月10日 18:01
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
