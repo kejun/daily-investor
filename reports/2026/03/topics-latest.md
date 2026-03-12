@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-03-11 00:06
+# 📱 X (Twitter) 热门话题追踪 | 2026-03-12 18:02
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -8,10 +8,10 @@
 
 | 类别 | 相关推文数 |
 |------|-----------|
-| 人工智能 | 4 条 |
-| AI智能体 | 3 条 |
+| 人工智能 | 5 条 |
+| AI智能体 | 2 条 |
 | 投资理财 | 2 条 |
-| 科技动态 | 2 条 |
+| 科技动态 | 1 条 |
 
 ---
 
@@ -28,52 +28,48 @@
 📎 [原文链接](https://x.com/sama/status/2030319489993298349#m)
 
 **3. @karpathy** [匹配: AI]
-> Three days ago I left autoresearch tuning nanochat for ~2 days on depth=12 model. It found ~20 changes that improved the validation loss. I tested these changes yesterday and all of them were additive...
-📎 [原文链接](https://x.com/karpathy/status/2031135152349524125#m)
+> My autoresearch labs got wiped out in the oauth outage. Have to think through failovers. Intelligence brownouts will be interesting - the planet losing IQ points when frontier AI stutters.
+📎 [原文链接](https://x.com/karpathy/status/2031792523187040643#m)
 
 **4. @ylecun** [匹配: AI]
-> Ex-Meta AI chief Yann LeCun's AMI raises $1.03 billion for alternative AI approach reut.rs/4sDQwex reut.rs/4sDQwex
-📎 [原文链接](https://x.com/Reuters/status/2031379588668944835#m)
+> Yann just bet a billion dollars that the entire industry is building on the wrong foundation. Large language models predict the next word. They're trained on text, so they understand language. But the...
+📎 [原文链接](https://x.com/LiorOnAI/status/2031479959685067006#m)
+
+**5. @ylecun** [匹配: AI]
+> AMI: The final frontier. These are the voyages of a new AI enterprise. Its 5-year mission: To explore & learn about strange new worlds, To seek out & support new life and new civilizations, To boldly ...
+📎 [原文链接](https://x.com/chriskclark/status/2031353248431669724#m)
 
 ## 🔥 AI智能体
 
 *关键词: MCP, Agent, LangChain*
 
-**1. @hwchase17** [匹配: Agent]
-> Great read for anyone across product, design and engineering that is making the transition to building products with AI. The human roles are merging. The artifacts like PRDs and specs are still critic...
-📎 [原文链接](https://x.com/jbermudez5/status/2031384684634993039#m)
+**1. @hwchase17** [匹配: MCP]
+> few takeaways from @Daytonaio ’s Compute conference: - we are way past the “agent” hype, harnesses are the new agents ( @hwchase17 ) - build tools for agents, memory, computers (sandboxes), infra… tho...
+📎 [原文链接](https://x.com/teodos/status/2031873804608381296#m)
 
-**2. @jxnlco** [匹配: Agent]
-> Sandbar has closed a $23m Series A led by Adjacent and Kindred Ventures We aim to augment individuals in an agentic world Batch 2, developers, careers, & a mini preview below Video
-📎 [原文链接](https://x.com/minafahmi/status/2031375161253900499#m)
-
-**3. @jxnlco** [匹配: Agent]
-> EXCLUSIVE: AI startup Sandbar has raised $23M in Series A funding for its note-taking smart ring, Stream, launching widely this summer. I spoke to CEO Mina Fahmi ( @minafahmi ) about his vision for a ...
-📎 [原文链接](https://x.com/alexrkonrad/status/2031350802930110749#m)
+**2. @hwchase17** [匹配: Agent]
+> awesome write-up from Mason! 🐐 there’s a very exciting potential future where agents more effectively self manage context because context rot isn’t going away any time soon, we need to build systems t...
+📎 [原文链接](https://x.com/Vtrivedy10/status/2031801520912810064#m)
 
 ## 🔥 投资理财
 
 *关键词: NVDA, TSLA, stock, market, Bitcoin*
 
 **1. @chamath** [匹配: market]
-> This lays at the feet of all AI CEOs. We need to do better. Polymarket (@Polymarket) JUST IN: NBC News poll reveals AI favorability at just 26% — lower than ICE. — https://nitter.net/Polymarket/status...
-📎 [原文链接](https://x.com/chamath/status/2031028236935954688#m)
+> All In Interview! The All-In Podcast (@theallinpod) 🚨 BIG INTERVIEW: Heads of the SEC and CFTC join the All-In Pod! @SECPaulSAtkins and @ChairmanSelig join @Jason and @chamath to discuss: -- Fixing th...
+📎 [原文链接](https://x.com/chamath/status/2031901566962471383#m)
 
-**2. @jimcramer** [匹配: stock]
-> Freed from the craziness that says Anthropic can destroy it. Anthropic can't even compete with it and, at the same time, be the creator of agents. Huge liability CNBC (@CNBC) This cybersecurity stock ...
-📎 [原文链接](https://x.com/jimcramer/status/2031329188129448095#m)
+**2. @jimcramer** [匹配: market]
+> red-headed woodpecker and gold finch right here in Jersey. Majestic eagle here yesterday. Believe me, if I can ring fence the market and enjoy nature’s beauty you can, too🦅🦅
+📎 [原文链接](https://x.com/jimcramer/status/2031780208525586852#m)
 
 ## 🔥 科技动态
 
 *关键词: SpaceX, Tesla, startup, tech*
 
-**1. @elonmusk** [匹配: Tesla]
-> Grok Imagine is #1 Tesla Owners Silicon Valley (@teslaownersSV) BREAKING: 🚀 Grok Imagine is #1 Grok Imagine now ranks #1 in the Image-to-Video Arena, beating major AI models and leading the next wave ...
-📎 [原文链接](https://x.com/elonmusk/status/2031366053671088435#m)
-
-**2. @pmarca** [匹配: startup]
-> Alpha! Lenny Rachitsky (@lennysan) My biggest takeaways from @qasar : 1. The real AI revolution over the next 5 to 10 years will happen in the physical world, not in software. While everyone obsesses ...
-📎 [原文链接](https://x.com/pmarca/status/2031116702646432056#m)
+**1. @paulg** [匹配: tech]
+> This is the new thing that Amjad showed me a couple weeks ago. It generalizes the idea of vibe coding beyond what people usually think of as coding. Amjad Masad (@amasad) Software isn’t merely technic...
+📎 [原文链接](https://x.com/paulg/status/2031785196773683450#m)
 
 
 ---
@@ -81,7 +77,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年03月11日 00:06
+- **更新时间**: 2026年03月12日 18:02
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
