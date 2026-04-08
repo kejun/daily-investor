@@ -1,0 +1,142 @@
+[
+  {
+    "username": "sama",
+    "category": "AI/LLM",
+    "text": "To celebrate 3 million weekly codex users, we are resetting usage limits. We will do this every million users up to 10 million. Happy building!",
+    "link": "https://nitter.net/sama/status/2041658719839383945#m",
+    "published": "Tue, 07 Apr 2026 23:"
+  },
+  {
+    "username": "sama",
+    "category": "AI/LLM",
+    "text": "Proud to have been part of this. We outline policy ideas for the transition to superintelligence, to build an open economy where everyone benefits and a society that is resilient to the risks. Progress is fast, and we must navigate these issues urgently. openai.com/index/industri",
+    "link": "https://nitter.net/AdrienLE/status/2041179073167454689#m",
+    "published": "Mon, 06 Apr 2026 15:"
+  },
+  {
+    "username": "sama",
+    "category": "AI/LLM",
+    "text": "TBPN has been acquired by OpenAI! The show is staying the same and we’ll continue to go live at 11am pacific every weekday. This is a full circle moment for me as I’ve worked with @sama for well over a decade. He funded my first company in 2013. Then helped us fix a serious logja",
+    "link": "https://nitter.net/johncoogan/status/2039756493621542915#m",
+    "published": "Thu, 02 Apr 2026 17:"
+  },
+  {
+    "username": "sama",
+    "category": "AI/LLM",
+    "text": "TBPN is my favorite tech show. We want them to keep that going and for them to do what they do so well. I don't expect them to go any easier on us, am sure I'll do my part to help enable that with occasional stupid decisions.",
+    "link": "https://nitter.net/sama/status/2039773740586918137#m",
+    "published": "Thu, 02 Apr 2026 18:"
+  },
+  {
+    "username": "sama",
+    "category": "AI/LLM",
+    "text": "This is a very good post: Boaz Barak (@boazbaraktcs) New blog post: the state of AI safety in four fake graphs. — https://nitter.net/boazbaraktcs/status/2038606572046172443#m",
+    "link": "https://nitter.net/sama/status/2038640963036626971#m",
+    "published": "Mon, 30 Mar 2026 15:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "\"Catch agent oopsies\" is great. Though still like the idea of an agent playground to understand the \"oopsie space\" I can expect :) Harrison Chase (@hwchase17) LangSmith 🤝Fix your agents You'll see our billboards around SF and NYC over the next few months. The themes all point to ",
+    "link": "https://nitter.net/johannesmauerer/status/2041723645584654828#m",
+    "published": "Wed, 08 Apr 2026 03:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "I love these almost as much as i love using langsmith Harrison Chase (@hwchase17) LangSmith 🤝Fix your agents You'll see our billboards around SF and NYC over the next few months. The themes all point to the same problem: you don't know what your agents will do until you actually ",
+    "link": "https://nitter.net/HaydenWolff1/status/2041698402719953106#m",
+    "published": "Wed, 08 Apr 2026 02:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "as always, it's an exciting time to be working at LangChain! LangChain (@LangChain) LangSmith 🤝 San Francisco You don't know what your agents will do until you actually run them. What works in demos can break in the real world. Without tracing and evals, you're just guessing at w",
+    "link": "https://nitter.net/samecrowder/status/2041676376256999593#m",
+    "published": "Wed, 08 Apr 2026 00:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "This is just the beginning 👀 Async subagents is a huge unlock to enable new capabilities orchestrating complex problems much faster and efficient 🚀 Learn more about our motivation and this is implemented in our recent blog post: blog.langchain.com/deep-agen… LangChain JS (@LangCh",
+    "link": "https://nitter.net/bromann/status/2041608597386514776#m",
+    "published": "Tue, 07 Apr 2026 20:"
+  },
+  {
+    "username": "hwchase17",
+    "category": "Agent/MCP",
+    "text": "Just shipped a walkthrough on building data agents using @LangChain 's Deep Agents SDK. The goal was simple: replicate how real analytics teams work. An orchestrator delegates to specialized subagents, each with its own domain context and tools instead of one overloaded “do every",
+    "link": "https://nitter.net/vorashm/status/2041616208034676942#m",
+    "published": "Tue, 07 Apr 2026 20:"
+  },
+  {
+    "username": "RayDalio",
+    "category": "投资/财经",
+    "text": "It’s important not to let our biases stand in the way of our objectivity. To get good results, we need to be analytical rather than emotional. Whenever I observe something in nature that I (or mankind) think is wrong, I assume that I’m wrong and try to figure out why what nature ",
+    "link": "https://nitter.net/RayDalio/status/2041595099914891455#m",
+    "published": "Tue, 07 Apr 2026 19:"
+  },
+  {
+    "username": "RayDalio",
+    "category": "投资/财经",
+    "text": "x.com/i/article/204153044272…",
+    "link": "https://nitter.net/RayDalio/status/2041531182018367773#m",
+    "published": "Tue, 07 Apr 2026 14:"
+  },
+  {
+    "username": "RayDalio",
+    "category": "投资/财经",
+    "text": "Part of the purpose of having a believability-weighted system is to remove emotion from decision making. Crowds get emotional and seek to grab control. That must be prevented. While all individuals have the right to have their own opinions, they do not have the right to render ve",
+    "link": "https://nitter.net/RayDalio/status/2041163285727191371#m",
+    "published": "Mon, 06 Apr 2026 14:"
+  },
+  {
+    "username": "RayDalio",
+    "category": "投资/财经",
+    "text": "In an idea meritocracy, there is bound to be more disagreement than in a typical organization, but when it's taken to an extreme, arguing and nitpicking can undermine the idea meritocracy's effectiveness. At Bridgewater, I have encountered some people, especially junior people, w",
+    "link": "https://nitter.net/RayDalio/status/2040533195590930704#m",
+    "published": "Sat, 04 Apr 2026 20:"
+  },
+  {
+    "username": "RayDalio",
+    "category": "投资/财经",
+    "text": "Learning is the product of a continuous real-time feedback loop in which we make decisions, see their outcomes, and improve our understanding of reality as a result. Being radically open-minded enhances the efficiency of those feedback loops, because it makes what you are doing, ",
+    "link": "https://nitter.net/RayDalio/status/2040051091686002795#m",
+    "published": "Fri, 03 Apr 2026 12:"
+  },
+  {
+    "username": "fchollet",
+    "category": "开发者工具",
+    "text": "Join the ARC Prize team -- help us build ARC-AGI-4 and ARC-AGI-5 ARC Prize (@arcprize) Platform Engineer - Benchmark Lead ARC Prize Foundation is hiring a senior engineer to build our benchmark platform * Expand ARC-AGI-3 * Own ARC-AGI-4 * Lay the foundations for ARC-AGI-5 Come b",
+    "link": "https://nitter.net/fchollet/status/2041634915150917883#m",
+    "published": "Tue, 07 Apr 2026 21:"
+  },
+  {
+    "username": "fchollet",
+    "category": "开发者工具",
+    "text": "ARC Prize 2026: ARC-AGI-2 has been upgraded to L4x4s Thank you @kaggle for upgrading compute for all participants ARC Prize (@arcprize) Also live today: ARC Prize 2026 - 3 tracks, $2,000,000 in prizes available! Get involved: • Play a Game: arcprize.org/tasks/ls20 • Build Agents:",
+    "link": "https://nitter.net/arcprize/status/2041555155943092488#m",
+    "published": "Tue, 07 Apr 2026 16:"
+  },
+  {
+    "username": "fchollet",
+    "category": "开发者工具",
+    "text": "On the pod: our most-requested guest! @ellisk_kellis from @Cornell shares the origins of his influential neurosymbolic paper \"DreamCoder\". Plus: program synthesis, wake-sleep library learning, world models, running an AI research lab, and more. Video",
+    "link": "https://nitter.net/ndea/status/2041554882201800964#m",
+    "published": "Tue, 07 Apr 2026 16:"
+  },
+  {
+    "username": "fchollet",
+    "category": "开发者工具",
+    "text": "One thing about DL researchers that has always been surprising to me, is that a lot of them have never been exposed to forms of learning other than fitting the parameters of a curve via gradient descent, and are even unable to conceive that there might exist other options",
+    "link": "https://nitter.net/fchollet/status/2041310893414502595#m",
+    "published": "Tue, 07 Apr 2026 00:"
+  },
+  {
+    "username": "fchollet",
+    "category": "开发者工具",
+    "text": "With curve-fitting, you are recording a lossy approximation of the output of some generative program. With symbolic learning, you are losslessly reverse-engineering the source code of the generative program. Symbolic learning won't be the best fit for all problems, but for the on",
+    "link": "https://nitter.net/fchollet/status/2041276397474533565#m",
+    "published": "Mon, 06 Apr 2026 22:"
+  }
+]
