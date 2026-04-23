@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-04-24 00:04
+# 📱 X (Twitter) 热门话题追踪 | 2026-04-24 06:04
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -8,7 +8,8 @@
 
 | 类别 | 相关推文数 |
 |------|-----------|
-| 人工智能 | 5 条 |
+| 人工智能 | 3 条 |
+| AI智能体 | 3 条 |
 | 科技动态 | 1 条 |
 
 ---
@@ -17,25 +18,33 @@
 
 *关键词: AI, LLM, GPT, Claude, OpenAI*
 
-**1. @sama** [匹配: AI]
-> Today we’re introducing two big steps for health at OpenAI: - ChatGPT for Clinicians, a free version of ChatGPT designed for clinical work - HealthBench Professional, a new benchmark to evaluate real ...
-📎 [原文链接](https://x.com/thekaransinghal/status/2047091103170785324#m)
+**1. @sama** [匹配: GPT]
+> "don't retweet this, don't retweet this, don't retweet this..." ah fuck it, life imitates art. Andon Labs (@andonlabs) In Vending-Bench Arena (the multiplayer version of Vending-Bench with competition...
+📎 [原文链接](https://x.com/sama/status/2047403771416940715#m)
 
-**2. @sama** [匹配: AI]
-> These are cool! I think most companies will want to use them. OpenAI (@OpenAI) Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across too...
-📎 [原文链接](https://x.com/sama/status/2047017964105597009#m)
-
-**3. @karpathy** [匹配: AI]
+**2. @karpathy** [匹配: AI]
 > Someone recently suggested to me that the reason OpenClaw moment was so big is because it's the first time a large group of non-technical people (who otherwise only knew AI as synonymous with ChatGPT ...
 📎 [原文链接](https://x.com/karpathy/status/2042341482531864741#m)
 
-**4. @ylecun** [匹配: AI]
-> More people will die from suppressing AI than from the imaginary AI apocalypse. They'll die from restricting safe self-driving cars that are 90% better drivers than people who kill 1.5 million people ...
-📎 [原文链接](https://x.com/Dan_Jeffries1/status/2047219303192174695#m)
+**3. @ylecun** [匹配: AI]
+> Do you want to know why LLMs feel sharp on surface semantics but hollow on the fine-grained stuff? “From Tokens to Thoughts: How LLMs and Humans Trade Compression for Meaning” Come by the poster tomor...
+📎 [原文链接](https://x.com/ziv_ravid/status/2047328333298540809#m)
 
-**5. @ylecun** [匹配: AI]
-> "The pessimistic professor...can predict anything he wants, for if his prophecies don't come true now, just wait: failure could be just around the corner, or else his voice of reason has prevented the...
-📎 [原文链接](https://x.com/Dan_Jeffries1/status/2047269858845335919#m)
+## 🔥 AI智能体
+
+*关键词: MCP, Agent, LangChain*
+
+**1. @hwchase17** [匹配: Agent]
+> 🎙️ Talked to @ListenLabs co-founder + CTO @florian_jue in the latest Max Agency. Really enjoyed hearing about the architectural decisions behind their agents, their self-reviewing feedback subagents, ...
+📎 [原文链接](https://x.com/hwchase17/status/2047337303287476515#m)
+
+**2. @hwchase17** [匹配: LangChain]
+> Come join us! langchain.com/careers Techsaleshackz (@techsaleshackz) The 15 most talent-dense Tech Companies from @paraformtalent Some good names on this list — https://nitter.net/techsaleshackz/statu...
+📎 [原文链接](https://x.com/hwchase17/status/2047302789777576333#m)
+
+**3. @DrJimFan** [匹配: Agent]
+> Please check out lead author @letian_fu 's deep dive thread! nitter.net/letian_fu/status/20393… Max Fu (@letian_fu) Robotics: coding agents’ next frontier. So how good are they? We introduce CaP-X: an...
+📎 [原文链接](https://x.com/DrJimFan/status/2039360927653614004#m)
 
 ## 🔥 科技动态
 
@@ -51,7 +60,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年04月24日 00:04
+- **更新时间**: 2026年04月24日 06:04
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
