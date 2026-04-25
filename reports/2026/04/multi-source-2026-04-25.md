@@ -2,43 +2,38 @@
 
 ## 🔥 热门标签
 
-1. **#m** - 3 次提及
-2. **#principleoftheday** - 3 次提及
-3. **#nature** - 1 次提及
+1. **#m** - 1 次提及
 
 ## 👥 热门提及
 
-1. **@theallinpod** - 1 次
-2. **@ShanuMathew93** - 1 次
-3. **@climatetech_vc** - 1 次
-4. **@JessePeltan** - 1 次
+1. **@AdamSchefter** - 1 次
 
 ## 💬 热门推文
 
-### @chamath
-Pod!!!! The All-In Podcast (@theallinpod) POD UP! Core four is back 🚨 Big show: -- SpaceX-Cursor deal, using compute as leverage -- SaaS debt bomb com...
+### @jimcramer
+How much do I love Howie! Adam Schefter (@AdamSchefter) The call from general manager Howie Roseman that made wide receiver Makai Lemon an Eagle: Vide...
 
-### @chamath
-I’m a LWM customer. McKinsey level insights for $99 p/mo. It’s been incredible.
+### @jimcramer
+Intel, Arm, AMD... i mean you can be serious
 
-### @chamath
-Over the last few years, my team and I have written many Deep Dives - fundamental research that I use to learn, guide my thinking and refine my decisi...
+### @jimcramer
+So many people bolted Nvidia... Own it don't trade it right into its record price
 
-### @chamath
-Right now, because electricity prices keep going up, consumers have pinned this blame on AI Datacenters. This is unfair but there is no organized or c...
+### @jimcramer
+A block takeaways-- Lip Bu will turbocharge Musk robot growth, ARM is too low
 
-### @chamath
-President Trump asked the Hyperscalers to sign a Rate Payer Pledge a few months ago. It was a smart and good thing by all parties. That said, electric...
+### @jimcramer
+In 13 months Lip Bu Tan Took intel from a possible and unthinkable bailout candidate to one of the wealthiest companies in the chip industry. There is...
 
-### @RayDalio
-Give me someone who can be responsible for an entire area--someone who can design, hire, and sort to achieve the goal--and I can be comfortable things...
+### @traderstewie
+What's notable about the recent mega-insta-rally taking place in the majority of US indices is that it's not bringing in the European and Chinese mark...
 
-### @RayDalio
-For the most part, life gives you so many decisions to make and so many opportunities to recover from your mistakes that, if you handle them well, you...
+### @traderstewie
+Every once in a while, the market makes such eye-popping violent directional moves that it gives traders/investors no chance of "getting in on a pullb...
 
-### @RayDalio
-If you’re not making many mistakes, you must not be learning much. Mistakes and failures are ultimately more valuable to you than successes because th...
+### @traderstewie
+$SOXL up 16 days consecutive days in a row and up over 160% since March 30th bottom! 1st time this has happened since $SOXL came into existence in 201...
 
 
 ---
-*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-04-25 15:01*
+*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-04-25 21:06*
