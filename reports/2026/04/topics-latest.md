@@ -1,4 +1,4 @@
-# 📱 X (Twitter) 热门话题追踪 | 2026-04-26 18:01
+# 📱 X (Twitter) 热门话题追踪 | 2026-04-27 00:06
 
 > 自动采集 X 平台热门话题，覆盖 AI、Agent、投资、科技四大领域
 
@@ -9,6 +9,7 @@
 | 类别 | 相关推文数 |
 |------|-----------|
 | 人工智能 | 2 条 |
+| AI智能体 | 1 条 |
 
 ---
 
@@ -21,8 +22,16 @@
 📎 [原文链接](https://x.com/karpathy/status/2042341482531864741#m)
 
 **2. @ylecun** [匹配: AI]
-> A mathematician who shared an office with Claude Shannon at Bell Labs gave one lecture in 1986 that explains why some people win Nobel Prizes and other equally smart people spend their whole lives doi...
-📎 [原文链接](https://x.com/ihtesham2005/status/2047680485208531152#m)
+> When MTV News shut down, it felt like decades of culture vanished overnight 🕳️ But over 470,000 pages were already preserved. That history didn’t disappear. It was archived. 📚 Read VANISHING CULTURE t...
+📎 [原文链接](https://x.com/internetarchive/status/2048069805807128734#m)
+
+## 🔥 AI智能体
+
+*关键词: MCP, Agent, LangChain*
+
+**1. @hwchase17** [匹配: Agent]
+> @Twintivo using 3 asynchronous deepagents to slash downtime inside manufacturing facilities. @hwchase17 @LangChain @lguaman Video Harrison Chase (@hwchase17) Tag me when it’s out! — https://nitter.net...
+📎 [原文链接](https://x.com/KCG3D/status/2048171851848048779#m)
 
 
 ---
@@ -30,7 +39,7 @@
 ## 📌 说明
 
 - **数据来源**: X (Twitter) via Nitter RSS
-- **更新时间**: 2026年04月26日 18:01
+- **更新时间**: 2026年04月27日 00:06
 - **采集方式**: 自动抓取核心 KOL 推文并匹配关键词
 - **覆盖领域**: 人工智能、AI智能体、投资理财、科技动态
 
