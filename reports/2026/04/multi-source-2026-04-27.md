@@ -2,41 +2,41 @@
 
 ## 🔥 热门标签
 
-1. **#principleoftheday** - 4 次提及
-2. **#m** - 3 次提及
+1. **#m** - 3 次提及
+2. **#earnings** - 1 次提及
 
 ## 👥 热门提及
 
-1. **@DavidSacks** - 1 次
-2. **@chamath** - 1 次
-3. **@TheChiefNerd** - 1 次
+1. **@eWhispers** - 1 次
+2. **@markminervini** - 1 次
+3. **@TmarketL** - 1 次
 
 ## 💬 热门推文
 
-### @chamath
-Every damn time.
+### @traderstewie
+AOT Top Pick strategy printed a New All Time High close this week! Week 16 Top Pick: $AAOI +6.35% 2026 YTD Results: +38.05% 2025 Results: + 10.19% 202...
 
-### @chamath
-Probable. David Sacks (@DavidSacks) Marc Benioff is the apex cloud founder. He and Salesforce have turned every previous technology wave to their adva...
+### @traderstewie
+Earnings bonanza Earnings Whispers (@eWhispers) #earnings for the week of April 27, 2026 earningswhispers.com/calenda… $MSFT $AMZN $AAPL $META $SNDK $...
 
-### @chamath
-On page twenty-six of “The Billionaire Tax” proposal in California, it explains how the state legislature can convert from a Billionaire Tax to an Eve...
+### @traderstewie
+What's notable about the recent mega-insta-rally taking place in the majority of US indices is that it's not bringing in the European and Chinese mark...
 
-### @chamath
-The Billionaire Tax is actually an Everyone Tax. The Billionaire Tax is a new tax proposal written by four professors who don't believe in the America...
+### @traderstewie
+Every once in a while, the market makes such eye-popping violent directional moves that it gives traders/investors no chance of "getting in on a pullb...
 
-### @chamath
-Agreed. Chief Nerd (@TheChiefNerd) SACKS: “We're really lucky that [Trump] is President … when this AI revolution is happening.” JASON: “What would ha...
+### @traderstewie
+$SOXL up 16 days consecutive days in a row and up over 160% since March 30th bottom! 1st time this has happened since $SOXL came into existence in 201...
 
-### @RayDalio
-So long as you bear the consequences of failure, you are the ultimate Responsible Party. For example, while you might choose to delegate the responsib...
+### @markminervini
+Bitterness and spite feel like power, but they’re serious weaknesses—they’re self-destructive. If you’re truly powerful, prove it. Love your enemy. Fo...
 
-### @RayDalio
-Our uniquely human ability to look down from a higher level doesn't apply just to understanding reality and the cause-effect relationships underlying ...
+### @markminervini
+If you are living an angry life, feeling like a victim, and you think you are hurting or spitting others by being unkind or apathetic, you are only de...
 
-### @RayDalio
-Give me someone who can be responsible for an entire area--someone who can design, hire, and sort to achieve the goal--and I can be comfortable things...
+### @markminervini
+Advice of the day: If you want to be successful (especially to those who use the excuse "I don't have enough time"), for starters... stop watching stu...
 
 
 ---
-*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-04-27 15:00*
+*数据来源: Nitter RSS + X Cookie | 生成时间: 2026-04-27 21:02*
