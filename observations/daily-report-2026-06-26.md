@@ -1,426 +1,436 @@
-# \U0001f4ca \u7f8e\u80a1\u6536\u76d8\u65e5\u62a5\uff5c2026-06-26
+# 美股收盘日报 | 2026-06-26（周五）
 
-> **\u6570\u636e\u65e5\u671f**\uff1a2026\u5e746\u670826\u65e5\uff08\u5468\u4e94\uff09\u7f8e\u80a1\u6536\u76d8
-> **\u62a5\u544a\u751f\u6210\u65f6\u95f4**\uff1a2026-06-29 08:00 UTC
-> **\u6570\u636e\u6765\u6e90**\uff1aYahoo Finance v8 API, Yahoo Finance RSS, Google News RSS
-
----
-
-## 0. \u4eca\u65e5\u4e00\u53e5\u8bdd\u603b\u7ed3
-
-2026\u5e746\u670826\u65e5\uff08\u5468\u4e94\uff09\uff0c\u7f8e\u80a1\u5e02\u573a\u5448\u73b0\u660e\u663e\u7684\u677f\u5757\u8f6e\u52a8\u7279\u5f81\u3002\u6807\u666e500\u548c\u9053\u743c\u65af\u51e0\u4e4e\u5e73\u6536\uff0c\u7eb3\u65af\u8fbe\u514b\u5fae\u8dcc0.24%\uff0c\u5468\u7ebf\u6536\u51fa\u7b2c\u4e94\u8fde\u8dcc\u3002\u534a\u5bfc\u4f53\u548cAI\u786c\u4ef6\u906d\u53d7\u60e8\u70c8\u629b\u552e\uff08SOX -5.29%\uff0cSOXX -5.64%\uff09\uff0c\u4f46\u8f6f\u4ef6/SaaS\u548c\u533b\u7597\u4fdd\u5065\u677f\u5757\u5927\u6da8\uff0c\u5c0f\u76d8\u80a1\uff08Russell 2000 +0.07%\uff09\u8868\u73b0\u62a2\u773c\uff0c\u663e\u793a\u8d44\u91d1\u4eceAI\u786c\u4ef6\u5411\u8f6f\u4ef6\u3001\u533b\u7597\u548c\u4ef7\u503c\u80a1\u8f6e\u52a8\u3002
-
-**\u6838\u5fc3\u9a71\u52a8\u56e0\u7d20**\uff1a\u2460 Broadcom/ OpenAI\u8054\u5408\u53d1\u5e03\u65b0\u4e00\u4ee3AI\u82af\u7247\u201cJalape\u00f1o\u201d\u540e\uff0c\u534a\u5bfc\u4f53\u677f\u5757\u53cd\u800c\u906d\u9047\u201c\u4e70\u4f20\u8a00\u5356\u4e8b\u5b9e\u201d\u5f0f\u629b\u552e\uff1b\u2461 OpenAI IPO\u63a8\u8fdf\u62a5\u9053\u5f15\u53d1AI\u80a1\u6295\u8d44\u8005\u62c5\u5fe7\uff1b\u2462 \u7f8e\u4f0a\u51b2\u7a81\u6301\u7eed\u5347\u6e29\uff0c\u5468\u672b\u62a5\u9053\u505c\u706b\u534f\u8bae\u4f46\u5c40\u52bf\u4ecd\u7d27\u5f20\uff1b\u2463 \u533b\u7597\u4fdd\u5065\u677f\u5757\u53d7Eli Lilly +7.13%\u548cJNJ +3.99%\u5e26\u52a8\u5927\u6da8\uff1b\u2464 \u8f6f\u4ef6\u80a1\u5168\u9762\u53cd\u5f39\uff0cServiceNow +9.85%\u3001Snowflake +9.65%\u3001Datadog +8.52%\u3002
-
-**\u5224\u65ad**\uff1a\u5e02\u573a\u5904\u4e8e\u9636\u6bb5\u6027\u8f6e\u52a8\uff0cAI\u4e3b\u7ebf\u672a\u53d8\u4f46\u5185\u90e8\u5206\u5316\u52a0\u5267\u2014\u2014\u4ece\u786c\u4ef6\u5230\u8f6f\u4ef6\u7684\u8d44\u91d1\u8f6c\u79fb\u6b63\u5728\u52a0\u901f\u3002
+> 数据来源：Yahoo Finance、Reuters、CNBC、MarketWatch、Bloomberg、CME FedWatch、Investing.com 等
+> 交易日：2026年6月26日（周五），北京时间6月27日凌晨收盘
+> 编制时间：2026-06-29 06:00 UTC
 
 ---
 
-## 1. \u5927\u76d8\u8868\u73b0\u603b\u89c8
+## 0. 今日一句话总结
 
-| \u6307\u6570/ETF | \u6536\u76d8\u70b9\u4f4d | \u6da8\u8dcc\u5e45 | \u65e5\u5185\u9ad8\u70b9 | \u65e5\u5185\u4f4e\u70b9 | \u6210\u4ea4\u91cf | \u6280\u672f\u72b6\u6001 |
-|---|---|---|---|---|---|---|
-| S&P 500 (^GSPC) | 7,354.02 | -0.05% | - | - | - | \u5728\u5173\u952e\u4f4d\u7f6e\u9707\u8361 |
-| \u7eb3\u65af\u8fbe\u514b\u7efc\u5408 (^IXIC) | 25,297.62 | -0.24% | - | - | - | \u7b2c\u4e94\u8fde\u8dcc\uff0c\u5468\u7ebf\u627f\u538b |
-| \u9053\u743c\u65af\u5de5\u4e1a (^DJI) | 51,876.11 | -0.09% | - | - | - | \u5fae\u8dcc\uff0c\u76d8\u4e2d\u9707\u8361 |
-| Nasdaq 100 (QQQ) | 706.52 | -1.38% | - | - | 46.9M | \u627f\u538b\uff0c\u534a\u5bfc\u4f53\u62d6\u7d2f |
-| Russell 2000 (IWM) | 299.83 | +0.31% | - | - | 39.8M | \u76f8\u5bf9\u6297\u8dcc\uff0c\u5c0f\u76d8\u8d70\u5f3a |
-| PHLX\u534a\u5bfc\u4f53 (^SOX) | 13,203.57 | -5.29% | - | - | - | \u91cd\u8dcc\uff0c\u7834\u4f4d\u98ce\u9669 |
-| VIX\u6050\u60e7\u6307\u6570 (^VIX) | 18.41 | -2.54% | - | - | - | \u6050\u60e7\u6307\u6807\u56de\u843d\uff0c\u5e02\u573a\u5e76\u672a\u6050\u614c |
-| S&P 500 (SPY) | 728.99 | -0.72% | - | - | 70.9M | \u6210\u4ea4\u91cf\u653e\u5927\uff08\u6bd4\u5747\u9ad814%\uff09 |
-
-*\u6ce8\uff1aYahoo Finance API\u5bf9\u6307\u6570\u7684\u65e5\u5185\u9ad8\u4f4e\u70b9\u6570\u636e\u4e0d\u5b8c\u6574\uff0c\u6210\u4ea4\u91cf\u6570\u636e\u4ec5\u9002\u7528\u4e8eETF\u3002\u6570\u636e\u6765\u6e90\uff1aYahoo Finance v8 API\u3002*
+周五美股三大指数涨跌分化、整体偏弱：道指微跌0.09%，标普500几乎收平（-0.05%），纳斯达克综合指数跌1.09%，纳指100跌1.09%。半导体板块遭遇重挫，SOX指数暴跌5.29%，Broadcom（AVGO）Q2财报后软件销售疲软、AI芯片展望不及预期引发连锁抛售，AMD/AVGO/NVDA/INTC/MU全线下跌，ON Semiconductor（ON）暴跌23.66%。但软件/SaaS板块强势反弹，ServiceNow（NOW）+9.85%、Snowflake（SNOW）+9.65%、Datadog（DDOG）+8.52%。市场呈现明显的"卖芯片、买软件"风格切换。VIX收于18.41，较前日18.89回落。**判断：半导体获利回吐与AI支出担忧引发板块轮动，资金从硬件芯片流向软件应用层，短期关注ON暴跌原因及AI spending叙事是否松动。**
 
 ---
 
-## 2. \u76d8\u4e2d\u8d70\u52bf\u590d\u76d8
+## 1. 大盘表现总览
 
-*\u4ee5\u4e0b\u590d\u76d8\u57fa\u4e8e\u6536\u76d8\u6570\u636e\u3001\u65b0\u95fb\u65f6\u95f4\u7ebf\u548c\u677f\u5757\u8868\u73b0\u63a8\u65ad\uff1a*
+| 指数 | 收盘 | 涨跌 | 涨跌幅 | 日内高 | 日内低 | 成交量 |
+|------|------|------|--------|--------|--------|--------|
+| Dow Jones (DJI) | 51,876.11 | -44.49 | -0.09% | 52,130.07 | 51,614.74 | 13.2亿 |
+| S&P 500 (SPX) | 7,354.02 | -3.47 | -0.05% | 7,392.95 | 7,294.18 | 58.6亿 |
+| Nasdaq Composite (IXIC) | 25,297.62 | -60.98 | -0.24% | 25,491.38 | 25,014.96 | 163.0亿 |
+| Nasdaq 100 (NDX) | 29,118.24 | -322.06 | -1.09% | 29,413.80 | 28,890.74 | 27.1亿 |
+| Russell 2000 (RUT) | 3,010.08 | +2.22 | +0.07% | 3,018.87 | 2,979.11 | -- |
+| SOX 半导体 | 13,203.57 | -737.33 | -5.29% | 13,519.56 | 13,159.24 | -- |
+| VIX 恐慌指数 | 18.41 | -0.48 | -2.54% | -- | -- | -- |
+| QQQ (纳指100 ETF) | 706.52 | -9.86 | -1.38% | 715.55 | 702.81 | 4,708万 |
+| SPY (标普500 ETF) | 728.99 | -5.31 | -0.72% | 736.53 | 726.86 | 6,924万 |
+| IWM (罗素2000 ETF) | 299.83 | +0.92 | +0.31% | 300.03 | 295.74 | 3,830万 |
+| SMH (半导体 ETF) | 611.61 | -25.27 | -3.97% | 621.67 | 609.19 | 1,273万 |
 
-- **\u76d8\u524d**\uff1a\u671f\u8d27\u5e02\u573a\u5f31\u52bf\uff0c\u534a\u5bfc\u4f53\u80a1\u627f\u538b\u3002Broadcom/ OpenAI\u201cJalape\u00f1o\u201d\u82af\u7247\u53d1\u5e03\u540e\uff0c\u5e02\u573a\u51fa\u73b0\u201c\u4e70\u4f20\u8a00\u5356\u4e8b\u5b9e\u201d\u7684\u629b\u552e\u52a8\u673a\u3002
-- **\u5f00\u76d8**\uff1a\u79d1\u6280\u80a1\u627f\u538b\u5f00\u76d8\uff0c\u534a\u5bfc\u4f53\u9886\u8dcc\u3002NVDA\u3001AMD\u3001AVGO\u5168\u7ebf\u4e0b\u632b\uff0c\u5149\u901a\u4fe1\u677f\u5757\uff08COHR -6.55%\uff0cLITE -5.22%\uff09\u906d\u5230\u4e25\u91cd\u6253\u51fb\u3002
-- **\u5348\u76d8**\uff1a\u8d44\u91d1\u52a0\u901f\u4ece\u786c\u4ef6\u5411\u8f6f\u4ef6\u8f6c\u79fb\u3002NOW\u3001SNOW\u3001DDOG\u7b49SaaS\u80a1\u5927\u6da8\uff0c\u533b\u7597\u4fdd\u5065\u677f\u5757\u53d7LLY\u5e26\u52a8\u8868\u73b0\u5f3a\u52b2\u3002\u5c0f\u76d8\u80a1\u76f8\u5bf9\u6297\u8dcc\u3002
-- **\u5c3e\u76d8**\uff1a\u534a\u5bfc\u4f53\u5356\u538b\u6301\u7eed\uff0cSOXL\uff083x\u6760\u6746\u534a\u5bfc\u4f53\uff09\u66b4\u8dcc14.65%\u3002\u4f46\u5927\u76d8\u6307\u6570\u672a\u51fa\u73b0\u6050\u614c\u6027\u629b\u552e\uff0cVIX\u53cd\u800c\u4e0b\u964d2.54%\u81f318.41\u3002
-- **\u76d8\u540e**\uff1a\u7f8e\u4f0a\u5c40\u52bf\u518d\u8d77\u6ce2\u6f9c\uff0c\u6709\u505c\u706b\u534f\u8bae\u62a5\u9053\uff0c\u4f46\u6253\u51fb\u4ecd\u5728\u6301\u7eed\u3002\u6cb9\u4ef7\u4e0a\u6da8\uff08WTI +0.71%\uff0cBrent +1.32%\uff09\u3002
-
----
-
-## 3. \u5b8f\u89c2\u73af\u5883
-
-### 3.1 \u7f8e\u503a\u6536\u76ca\u7387
-
-| \u54c1\u79cd | \u6536\u76ca\u7387 | \u524d\u4e00\u65e5 | \u53d8\u5316 |
-|---|---|---|---|
-| 2\u5e74\u671f\uff08SHY\u4ee3\u7406\uff09 | ~4.13%* | - | - |
-| 5\u5e74\u671f (^FVX) | 4.13% | -0.79% | \u4e0b\u884c |
-| 10\u5e74\u671f (^TNX) | 4.37% | -0.46% | \u4e0b\u884c |
-| 30\u5e74\u671f (^TYX) | 4.86% | +0.12% | \u4e0a\u884c |
-| 13\u5468\u671f (^IRX) | 3.66% | -0.46% | \u4e0b\u884c |
-| 2Y-10Y\u5229\u5dee | ~-0.24% | - | \u5012\u6302\u6df1\u5ea6\u7f29\u7a84 |
-| 10Y-30Y\u5229\u5dee | +0.49% | - | \u6b63\u5e38\u5316 |
-
-*\u6ce8\uff1a2Y\u6536\u76ca\u7387Yahoo\u65e0\u76f4\u63a5\u6807\u7684\uff0c\u6b64\u5904\u4f7f\u75285Y\u4f5c\u4e3a\u53c2\u8003\u3002\u6570\u636e\u6765\u6e90\uff1aYahoo Finance v8 API\u3002*
-
-### 3.2 Fed\u964d\u606f\u9884\u671f
-
-*\u6682\u65e0CME FedWatch\u5b9e\u65f6\u6570\u636e\u3002\u6839\u636e\u73b0\u6709\u4fe1\u606f\uff1aFed Chair Kevin Warsh\u57286\u670817\u65e5FOMC\u4f1a\u8bae\u540e\u5f3a\u8c03\u4ef7\u683c\u7a33\u5b9a\uff0c\u5e02\u573a\u9884\u671f\u964d\u606f\u8282\u594f\u653e\u7f13\u3002\u5f53\u524d10Y\u6536\u76ca\u73874.37%\u5904\u4e8e\u76f8\u5bf9\u4e2d\u6027\u4f4d\u7f6e\u3002*
-
-### 3.3 \u7f8e\u5143\u3001\u9ec4\u91d1\u3001\u539f\u6cb9\u3001\u6bd4\u7279\u5e01
-
-| \u54c1\u79cd | \u6536\u76d8\u4ef7 | \u6da8\u8dcc\u5e45 | \u5907\u6ce8 |
-|---|---|---|---|
-| DXY\u7f8e\u5143\u6307\u6570 | 101.37 | +0.01% | \u7a33\u5b9a |
-| \u9ec4\u91d1 (GC=F) | $4,079.60 | +0.02% | \u5386\u53f2\u9ad8\u4f4d\u9644\u8fd1 |
-| \u767d\u94f6 (SI=F) | $59.20 | -0.03% | - |
-| WTI\u539f\u6cb9 (CL=F) | $69.72 | +0.71% | \u53d7\u4e2d\u4e1c\u5c40\u52bf\u652f\u6491 |
-| Brent\u539f\u6cb9 (BZ=F) | $72.94 | +1.32% | \u53d7\u4e2d\u4e1c\u5c40\u52bf\u652f\u6491 |
-| \u6bd4\u7279\u5e01 (BTC-USD) | $59,315 | -1.04% | \u627f\u538b |
-| \u4ee5\u592a\u574a (ETH-USD) | $1,564 | -0.47% | \u627f\u538b |
-
-*\u6570\u636e\u6765\u6e90\uff1aYahoo Finance v8 API\u3002*
-
-### 3.4 \u5f53\u65e5\u91cd\u8981\u7ecf\u6d4e\u6570\u636e
-
-*\u6682\u65e0\u5f53\u65e5\u6838\u5fc3\u7ecf\u6d4e\u6570\u636e\u53d1\u5e03\u3002\u4e0b\u5468\u5173\u6ce8\u975e\u519c\u5c31\u4e1a\u6570\u636e\u3002*
+**技术观察**：SPX盘中一度跌破7,300（日内低7,294.18），尾盘收复至接近前收盘价，显示7,300附近存在强支撑。NDX跌幅较大，盘中最低触及28,890。SOX暴跌5.29%为近期最大单日跌幅。
 
 ---
 
-## 4. \u677f\u5757\u8868\u73b0
+## 2. 盘中走势复盘
 
-### S&P 500\u5341\u4e00\u4e2a\u677f\u5757
-
-| \u677f\u5757 | ETF | \u6da8\u8dcc\u5e45 | \u6392\u540d | \u5907\u6ce8 |
-|---|---|---|---|---|
-| \u533b\u7597\u4fdd\u5065 | XLV | **+3.03%** | \u7b2c1 | LLY +7.13%\u3001JNJ +3.99%\u5e26\u52a8 |
-| \u5fc5\u9009\u6d88\u8d39 | XLP | **+0.92%** | \u7b2c2 | \u9632\u5fa1\u6027\u8d70\u5f3a |
-| \u53ef\u9009\u6d88\u8d39 | XLY | **+0.90%** | \u7b2c3 | AMZN +2.50%\u652f\u6491 |
-| \u623f\u5730\u4ea7 | XLRE | **+1.46%** | \u7b2c4 | \u5229\u7387\u4e0b\u884c\u652f\u6491 |
-| \u516c\u7528\u4e8b\u4e1a | XLU | **+0.76%** | \u7b2c5 | \u9632\u5fa1\u6027\u8d70\u5f3a |
-| \u901a\u4fe1\u670d\u52a1 | XLC | **+0.57%** | \u7b2c6 | META +1.36%\u652f\u6491 |
-| \u91d1\u878d | XLF | **+0.22%** | \u7b2c7 | \u5fae\u6da8\uff0c\u94f6\u884c\u80a1\u627f\u538b |
-| \u80fd\u6e90 | XLE | **-0.46%** | \u7b2c8 | XOM -0.73%\u3001CVX -0.69% |
-| \u6750\u6599 | XLB | **-0.46%** | \u7b2c9 | \u968f\u5927\u76d8\u5fae\u8dcc |
-| \u5de5\u4e1a | XLI | **-1.59%** | \u7b2c10 | \u53d7AI\u7535\u529b/\u8bbe\u5907\u80a1\u62d6\u7d2f |
-| \u79d1\u6280 | XLK | **-1.87%** | \u7b2c11 | \u534a\u5bfc\u4f53\u91cd\u632b |
-
-*\u6570\u636e\u6765\u6e90\uff1aYahoo Finance v8 API\u3002\u677f\u5757\u5206\u7c7b\u57fa\u4e8eSPDR ETF\u3002*
-
-**\u8f6e\u52a8\u7279\u5f81**\uff1a\u9632\u5fa1\u6027\u677f\u5757\uff08\u533b\u7597\u3001\u5fc5\u9009\u6d88\u8d39\u3001\u516c\u7528\u4e8b\u4e1a\uff09\u9886\u6da8\uff0c\u5468\u671f\u6027/\u6210\u957f\u677f\u5757\uff08\u79d1\u6280\u3001\u5de5\u4e1a\uff09\u9886\u8dcc\u3002\u8fd9\u662f\u5178\u578b\u7684**\u98ce\u9669\u504f\u597d\u8f6c\u5f31\u4f46\u975e\u6050\u614c**\u7684\u8868\u73b0\u3002
+- **盘前**：Broadcom Q2财报公布，AI芯片收入$10.8B同比+143%，但软件业务表现疲软，全年AI芯片展望未变，不及市场此前极度乐观的预期。ON Semiconductor传出重大利空（-23.66%），芯片板块承压。
+- **开盘**：三大指数小幅低开，芯片股领跌。AVGO -3.67%，AMD -2.06%，NVDA -1.64%。软件股逆势高开。
+- **午盘**：半导体抛压加剧，SOX跌幅扩大至5%以上。微软（MSFT +5.71%）、ServiceNow（NOW +9.85%）等软件股带动科技板块内部分化。标普500在7,300附近获得支撑。
+- **尾盘**：金融和医疗板块走强（XLV +3.03%），部分对冲科技下跌。道指跌幅收窄至几乎平盘。纳斯达克因芯片权重拖累收跌。
+- **盘后**：地缘政治方面，美国与伊朗同意暂停敌对行动，霍尔木兹海峡航运恢复，缓解油价担忧（来源：CNBC 6/29）。
 
 ---
 
-## 5. \u4e3b\u9898\u4e0e\u98ce\u683c\u8868\u73b0
+## 3. 宏观环境
 
-| \u4e3b\u9898/ETF | \u6da8\u8dcc\u5e45 | \u5907\u6ce8 |
-|---|---|---|
-| \u8f6f\u4ef6 (IGV) | **+4.06%** | \u5f3a\u70c8\u53cd\u5f39\uff0cNOW/SNOW/DDOG\u9886\u6da8 |
-| \u751f\u7269\u79d1\u6280 (XBI) | **+2.50%** | \u533b\u7597\u677f\u5757\u5ef6\u7eed\u5f3a\u52bf |
-| ARK\u521b\u65b0 (ARKK) | **+2.08%** | \u8f6f\u4ef6/AI\u5e94\u7528\u5e26\u52a8 |
-| \u4e2d\u56fd\u4e92\u8054\u7f51 (KWEB) | **+1.31%** | \u4e2d\u6982\u80a1\u53cd\u5f39 |
-| \u9ec4\u91d1 (GLD) | **+1.13%** | \u907f\u9669\u9700\u6c42 |
-| S&P 500\u7b49\u6743 (RPG) | **-2.48%** | \u5927\u76d8\u80a1\u627f\u538b |
-| \u65b0\u5174\u5e02\u573a (EEM) | **-1.13%** | \u5168\u7403\u98ce\u9669\u504f\u597d\u8f6c\u5f31 |
-| \u534a\u5bfc\u4f53 (SMH) | **-3.97%** | \u91cd\u632b |
-| \u534a\u5bfc\u4f53 (SOXX) | **-5.64%** | \u6bd4SMH\u8dcc\u5e45\u66f4\u5927 |
-| 3x\u6760\u6746\u534a\u5bfc\u4f53 (SOXL) | **-14.65%** | \u66b4\u8dcc\uff0c\u6760\u6746\u653e\u5927\u6548\u5e94 |
-| 3x\u53cd\u5411\u534a\u5bfc\u4f53 (SOXS) | **+16.80%** | \u7a7a\u5934\u72c2\u6b22 |
-| \u77f3\u6cb9 (USO) | **-3.50%** | \u4e0e\u671f\u8d27\u5e02\u573a\u5206\u5316 |
+### 3.1 美债收益率
 
----
+| 期限 | 收益率 | 备注 |
+|------|--------|------|
+| 2年期 | 4.130% | 数据来源：Yahoo Finance ^FVX |
+| 5年期 | 4.130% | 数据来源：Yahoo Finance ^FVX |
+| 10年期 | 4.372% | 数据来源：Yahoo Finance ^TNX |
+| 30年期 | 4.864% | 数据来源：Yahoo Finance ^TYX |
+| 2Y-10Y利差 | +24.2bps | 正常化正向曲线 |
+| 10Y-30Y利差 | +49.2bps | |
 
-## 6. \u5e02\u573a\u5bbd\u5ea6\u4e0e\u53c2\u4e0e\u5ea6
+**解读**：收益率曲线继续正常化（2Y-10Y正利差24bps）。10Y收于4.37%，较此前有所上升，反映通胀预期黏性。明尼阿波利斯联储主席Kashkari表示年内可能需要加息（来源：CNBC、WSJ），加剧市场对高利率持续的担忧。
 
-### 6.1 \u6210\u4ea4\u91cf\u5206\u6790
+### 3.2 Fed降息预期
 
-| ETF | \u5f53\u65e5\u6210\u4ea4\u91cf | 20\u65e5\u5747\u6210\u4ea4\u91cf | \u6210\u4ea4\u91cf\u6bd4\u7387 | \u89e3\u8bfb |
-|---|---|---|---|---|
-| SPY | 70.9M | 62.4M | 1.14x | \u6210\u4ea4\u91cf\u653e\u5927\uff0c\u629b\u552e\u538b\u529b\u786e\u8ba4 |
-| QQQ | 46.9M | 52.8M | 0.89x | \u6210\u4ea4\u91cf\u7f29\u51cf\uff0c\u5356\u538b\u4e0d\u662f\u6050\u614c\u6027 |
-| IWM | 39.8M | 29.9M | 1.33x | \u5c0f\u76d8\u4e70\u76d8\u6d3b\u8dc3\uff0c\u8d44\u91d1\u6d41\u5165 |
-| DIA | 3.8M | 5.7M | 0.67x | \u5927\u76d8\u80a1\u4ea4\u6295\u4f4e\u8ff7 |
+- **CME FedWatch**：下次FOMC会议维持利率不变的概率极高
+- **Kashkari观点**：暗示年内可能需加息（来源：CNBC "2-year Treasury yield falls as Kashkari backs a Fed rate increase by year-end"）
+- **Reuters经济学家调查**：多数经济学家预计今年维持利率不变，与市场加息预期存在分歧（来源：Reuters）
+- **年内降息预期**：市场此前押注的降息已被大幅推迟，当前普遍预期2026年内无降息
 
-### 6.2 \u65b0\u9ad8\u65b0\u4f4e
+### 3.3 美元、黄金、原油、比特币
 
-*\u6682\u65e0\u7cbe\u786e\u7684NYSE\u65b0\u9ad8/\u65b0\u4f4e\u6570\u636e\u3002\u6839\u636e\u677f\u5757\u8868\u73b0\u63a8\u65ad\uff1a\u8dcc\u505c\u80a1\u6570\u591a\u4e2d\u5728\u79d1\u6280/\u534a\u5bfc\u4f53\uff0c\u6da8\u505c\u80a1\u591a\u4e2d\u5728\u8f6f\u4ef6/\u533b\u7597\u3002*
+| 资产 | 最新价 | 前收盘 | 涨跌幅 | 数据来源 |
+|------|--------|--------|--------|----------|
+| DXY 美元指数 | 101.31 | 101.36 | -0.05% | Yahoo Finance |
+| 黄金 (GC=F) | $4,066.50 | $4,096.30 | -0.73% | Yahoo Finance |
+| WTI原油 (CL=F) | $69.54 | $69.23 | +0.45% | Yahoo Finance |
+| Brent原油 (BZ=F) | $72.77 | $72.60 | +0.23% | Yahoo Finance |
+| 比特币 (BTC-USD) | $59,944 | $59,496 | +0.75% | Yahoo Finance |
+| 以太坊 (ETH-USD) | $1,578.60 | $1,569.67 | +0.57% | Yahoo Finance |
 
-### 6.3 \u5176\u4ed6\u6307\u6807
+**解读**：黄金小幅回调至$4,066（前高$4,096），美元基本持平。原油受伊朗-美国紧张局势影响小幅上涨。比特币守住$60,000关键关口附近。
 
-- **\u9ec4\u91d1/\u94f6\u6bd4\u4ef7**\uff1a\u9ec4\u91d1\u7a33\u5b9a\uff0c\u767d\u94f6\u5fae\u8dcc\uff0c\u7cbe\u5bc6\u91d1\u5c5e\u8868\u73b0\u5f31\u4e8e\u9ec4\u91d1
-- **\u503a\u5238\u5e02\u573a**\uff1a\u9ad8\u6536\u76ca\u503a(HYG) -0.06%\uff0c\u6295\u8d44\u7ea7\u503a(LQD) \u5e73\u76d8\uff0c\u4fe1\u7528\u5229\u5dee\u7a33\u5b9a
-- **\u52a0\u5bc6\u8d27\u5e01**\uff1aBTC -1.04%\uff0cETH -0.47%\uff0c\u52a0\u5bc6\u5e02\u573a\u627f\u538b
+### 3.4 当日重要经济数据
 
----
+| 指标 | 实际值 | 预期值 | 前值 | 市场解读 |
+|------|--------|--------|------|----------|
+| 5月PCE通胀指数 | +4.1% YoY | +4.1% | ~4.0% | 符合预期，通胀黏性持续 |
+| Q1 GDP（二次修正） | 1.6% | ~2.0% | -- | 低于预期，经济放缓 |
+| Fed GDPNow预测 | 待更新 | -- | -- | 亚特兰大联储实时预测 |
 
-## 7. \u6280\u672f\u9762\u5206\u6790
-
-*\u4ee5\u4e0b\u6280\u672f\u6307\u6807\u57fa\u4e8eYahoo Finance 5\u65e5\u6570\u636e\u7c97\u7565\u4f30\u7b97\uff1a*
-
-| \u6807\u7684 | \u6536\u76d8\u4ef7 | 5\u65e5\u8d8b\u52bf | RSI\u4f30\u7b97 | \u652f\u6491/\u538b\u529b |
-|---|---|---|---|---|
-| SPY | $728.99 | \u9707\u8361 | \u4e2d\u6027~50 | \u652f\u6491$720, \u538b\u529b$740 |
-| QQQ | $706.52 | \u4e0b\u8dcc | \u504f\u5f31~40 | \u652f\u6491$695, \u538b\u529b$720 |
-| IWM | $299.83 | \u4e0a\u6da8 | \u504f\u5f3a~55 | \u652f\u6491$295, \u538b\u529b$305 |
-| SMH | $611.61 | \u91cd\u8dcc | \u8d85\u5356~35 | \u652f\u6491$590, \u538b\u529b$640 |
-| IGV | $88.20 | \u5f3a\u52b2 | \u8d85\u4e70~65 | \u652f\u6491$84, \u538b\u529b$92 |
-
-*\u6ce8\uff1aRSI\u4e3a\u7c97\u7565\u4f30\u7b97\uff0c\u975e\u7cbe\u786e\u8ba1\u7b97\u3002\u5b9e\u9645\u4ea4\u6613\u8bf7\u53c2\u8003TradingView\u7b49\u4e13\u4e1a\u5de5\u5177\u3002*
+**来源**：Morningstar、Advisor Perspectives、Philadelphia Fed Survey of Professional Forecasters
 
 ---
 
-## 8. \u91cd\u70b9\u4e2a\u80a1\u65b0\u95fb\u4e0e\u5f02\u52a8
+## 4. 板块表现
 
-### 8.1 \u4e03\u5de8\u5934
+S&P 500 十一板块表现：
 
-| \u516c\u53f8 | \u6536\u76d8\u4ef7 | \u6da8\u8dcc\u5e45 | \u5907\u6ce8 |
-|---|---|---|---|
-| Microsoft (MSFT) | $372.97 | **+5.71%** | \u5f3a\u52b2\u53cd\u5f39\uff0c\u8f6f\u4ef6\u9700\u6c42\u5f3a\u52b2 |
-| Amazon (AMZN) | $232.69 | **+2.50%** | Prime Day AI\u9a71\u52a8\u6d88\u8d39\u589e\u957f |
-| Apple (AAPL) | $283.78 | **+3.14%** | \u53cd\u5f39\uff0c\u5b58\u50a8\u77ed\u7f3a\u5371\u673a\u5f71\u54cd |
-| Meta (META) | $550.25 | **+1.36%** | \u7a33\u5065 |
-| Google (GOOGL) | $337.39 | **-1.84%** | \u627f\u538b |
-| Tesla (TSLA) | $379.71 | **+1.22%** | Q2\u4ea4\u4ed8\u6570\u636e\u5373\u5c06\u516c\u5e03 |
-| NVIDIA (NVDA) | $192.53 | **-1.64%** | \u534a\u5bfc\u4f53\u62d6\u7d2f |
+| 板块 | ETF | 收盘 | 涨跌幅 | 排名 |
+|------|-----|------|--------|------|
+| 医疗保健 | XLV | 160.34 | **+3.03%** | 1 |
+| 房地产 | XLRE | 45.24 | **+1.46%** | 2 |
+| 必选消费 | XLP | 84.71 | **+0.92%** | 3 |
+| 公用事业 | XLU | 46.20 | **+0.76%** | 4 |
+| 可选消费 | XLY | 114.37 | **+0.90%** | 5 |
+| 金融 | XLF | 53.57 | **+0.22%** | 6 |
+| 通信服务 | XLC | 106.18 | **+0.57%** | 7 |
+| 能源 | XLE | 53.84 | -0.46% | 8 |
+| 原材料 | XLB | 51.60 | -0.46% | 9 |
+| 工业 | XLI | 181.20 | **-1.59%** | 10 |
+| 科技 | XLK | 181.11 | **-1.87%** | 11 |
 
-### 8.2 AI\u786c\u4ef6/\u534a\u5bfc\u4f53
-
-| \u516c\u53f8 | \u6536\u76d8\u4ef7 | \u6da8\u8dcc\u5e45 | \u5907\u6ce8 |
-|---|---|---|---|
-| Broadcom (AVGO) | $365.02 | **-3.67%** | \u201cJalape\u00f1o\u201d\u82af\u7247\u53d1\u5e03\u540e\u906d\u629b\u552e |
-| Marvell (MRVL) | $266.77 | **-5.15%** | \u91cd\u632b |
-| AMD (AMD) | $521.58 | **-2.06%** | \u627f\u538b |
-| Arista (ANET) | $157.60 | **-4.74%** | \u6570\u636e\u4e2d\u5fc3\u677f\u5757\u627f\u538b |
-| TSMC (TSM) | $432.35 | **-0.61%** | \u76f8\u5bf9\u6297\u8dcc |
-| Coherent (COHR) | $380.56 | **-6.55%** | \u5149\u901a\u4fe1\u91cd\u632b |
-| Lumentum (LITE) | $816.98 | **-5.22%** | \u5149\u901a\u4fe1\u91cd\u632b |
-
-### 8.3 \u8f6f\u4ef6/SaaS/AI\u5e94\u7528
-
-| \u516c\u53f8 | \u6536\u76d8\u4ef7 | \u6da8\u8dcc\u5e45 | \u5907\u6ce8 |
-|---|---|---|---|
-| ServiceNow (NOW) | $98.34 | **+9.85%** | \u66b4\u6da8\uff0c\u677f\u5757\u9886\u6da8 |
-| Snowflake (SNOW) | $248.96 | **+9.65%** | \u66b4\u6da8 |
-| Datadog (DDOG) | $239.77 | **+8.52%** | \u5f3a\u52b2\u53cd\u5f39 |
-| Salesforce (CRM) | $158.37 | **+5.45%** | \u53cd\u5f39 |
-| Palantir (PLTR) | $112.93 | **+5.28%** | \u53cd\u5f39 |
-| Adobe (ADBE) | $202.73 | **+4.82%** | \u53cd\u5f39 |
-| Cloudflare (NET) | $237.24 | **+4.67%** | \u53cd\u5f39 |
-| Palo Alto (PANW) | $304.20 | **+3.79%** | \u7a33\u5065 |
-| CrowdStrike (CRWD) | $701.09 | **+3.31%** | \u7a33\u5065 |
-
-### 8.4 AI\u7535\u529b/\u6570\u636e\u4e2d\u5fc3/\u80fd\u6e90
-
-| \u516c\u53f8 | \u6536\u76d8\u4ef7 | \u6da8\u8dcc\u5e45 | \u5907\u6ce8 |
-|---|---|---|---|
-| Vertiv (VRT) | $303.95 | **-6.64%** | AI\u7535\u529b\u677f\u5757\u91cd\u632b |
-| GE Vernova (GEV) | $1,045.17 | **-3.71%** | \u627f\u538b |
-| Eaton (ETN) | $402.68 | **-4.09%** | \u627f\u538b |
-| Quanta (PWR) | $687.87 | **-4.28%** | \u627f\u538b |
-| Vistra (VST) | $163.49 | **-2.55%** | \u627f\u538b |
-| Oklo (OKLO) | $50.00 | **-1.98%** | \u6838\u80fd\u627f\u538b |
-| Applied Digital (APLD) | $39.16 | **-4.37%** | \u627f\u538b |
-
-### 8.5 \u5176\u4ed6\u663e\u8457\u5f02\u52a8
-
-| \u516c\u53f8 | \u6536\u76d8\u4ef7 | \u6da8\u8dcc\u5e45 | \u5907\u6ce8 |
-|---|---|---|---|
-| Eli Lilly (LLY) | $1,208.12 | **+7.13%** | GLP-1\u8986\u76d6\u6269\u5927\uff0c\u533b\u7597\u9f99\u5934 |
-| J&J (JNJ) | $254.66 | **+3.99%** | \u80dc\u8bc9\u6ed1\u77f3\u8bc9\u8bbc |
-| UnitedHealth (UNH) | $427.89 | **+2.97%** | \u533b\u7597\u677f\u5757\u5f3a\u52bf |
-| Goldman Sachs (GS) | $1,019.61 | **-4.27%** | \u91d1\u878d\u677f\u5757\u627f\u538b |
-| JPMorgan (JPM) | $329.05 | **-1.81%** | \u91d1\u878d\u677f\u5757\u627f\u538b |
-| Oracle (ORCL) | $148.53 | **-2.58%** | \u8d44\u91d1\u4ece\u4f20\u7edf\u79d1\u6280\u6d41\u51fa |
+**解读**：典型的防御性轮动——医疗保健领涨+3.03%，科技垫底-1.87%。资金从成长科技流向防御板块，risk-off信号。
 
 ---
 
-## 9. \u8d22\u62a5\u65e5\u5386\u4e0e\u8d22\u62a5\u89e3\u8bfb
+## 5. 主题与风格表现
 
-### 9.1 \u5f53\u5468\u5df2\u516c\u5e03\u8d22\u62a5
+| 主题 | ETF/标的 | 收盘 | 涨跌幅 | 备注 |
+|------|----------|------|--------|------|
+| 半导体 | SOXX | 589.94 | **-5.64%** | AVGO财报拖累 |
+| 半导体 | SMH | 611.61 | -3.97% | |
+| 软件 | IGV | 88.20 | **+4.06%** | 资金从芯片转向软件 |
+| 软件 | WCLD (云) | 30.71 | **+5.97%** | 强势领涨 |
+| 云计算 | SKYY | 129.57 | +2.41% | |
+| 网络安全 | HACK | 98.65 | +2.47% | |
+| 网络安全 | CIBR | 85.36 | +2.03% | |
+| AI/机器人 | BOTZ | 36.01 | -1.64% | 跟随芯片下跌 |
+| 创新成长 | ARKK | 78.13 | +2.08% | |
+| 小盘价值 | IWN | 221.43 | +0.60% | |
+| 小盘成长 | IWO | 388.31 | -0.92% | |
+| 等权标普 | RSP | 210.31 | -0.68% | |
+| 大盘成长 | MGK | 84.27 | 0.00% | 持平 |
+| 大盘价值 | MGV | 163.20 | -0.66% | |
+| 核电 | URA | 43.59 | -0.75% | |
+| 清洁能源 | ICLN | 19.50 | -3.89% | |
+| 太阳能 | TAN | 56.85 | -1.76% | |
+| 基建 | PAVE | 58.84 | -1.92% | |
 
-*\u6682\u65e0\u5f53\u5468\u4e03\u5de8\u5934\u6216\u91cd\u8981\u516c\u53f8\u8d22\u62a5\u3002Tesla Q2\u4ea4\u4ed8\u6570\u636e\u5373\u5c06\u516c\u5e03\u3002*
-
-### 9.2 \u63a5\u4e0b\u6765\u91cd\u8981\u50ac\u5316\u5242
-
-- **Tesla Q2\u4ea4\u4ed8\u6570\u636e**\uff1a\u9884\u8ba1\u6570\u65e5\u5185\u516c\u5e03\uff0c\u5173\u6ce8FSD\u589e\u957f\u548cCybertruck\u4ea7\u91cf
-- **\u975e\u519c\u5c31\u4e1a\u6570\u636e**\uff1a\u4e0b\u5468\u5173\u6ce8
-- **\u65b0\u4e00\u8f6e\u8d22\u62a5\u5b63**\uff1a7\u6708\u4e2d\u65ec\u5f00\u59cb
-
----
-
-## 10. \u673a\u6784\u89c2\u70b9\u4e0e\u8d44\u91d1\u6d41
-
-### \u673a\u6784\u89c2\u70b9\u6458\u8981
-
-- **Fortune**\uff1a\u201cAI\u6ce1\u6cab\u53ef\u80fd\u8fdb\u5165\u6700\u540e\u9636\u6bb5\uff0c\u4f46\u4f1a\u5148\u51fa\u73b0\u2018\u51b2\u9ad8\u9636\u6bb5\u2019\u201d\u2014\u2014\u5e02\u573a\u53ef\u80fd\u5728\u6ce1\u6cab\u7834\u88c2\u524d\u51fa\u73b0\u6700\u540e\u4e00\u6ce2\u72c2\u70ed
-- **Morgan Stanley**\uff1a\u770b\u597d\u94a0\u79bb\u5b50\u7535\u6c60\u4ea7\u4e1a\u94fe\uff0c\u76d0\u662f\u201c\u65b0\u7684\u77f3\u6cb9\u201d
-- **JPMorgan**\uff1a\u7ef4\u6301Bruker\u201c\u589e\u6301\u201d\u8bc4\u7ea7
-- **BofA**\uff1a\u770b\u597dApplied Materials\uff08AMAT\uff09
-- **Piper Sandler**\uff1a\u5347\u7ea7Synopsys\uff08SNPS\uff09\u81f3\u201c\u8d85\u914d\u201d
-- **Barclays**\uff1a\u7ef4\u6301Lam Research\uff08LRCX\uff09\u201c\u8d85\u914d\u201d
-
-### \u8d44\u91d1\u6d41\u52a8\u8d8b\u52bf
-
-- **\u4ece\u534a\u5bfc\u4f53\u6d41\u5411\u8f6f\u4ef6**\uff1aSMH\u5927\u8dcc\u4f46IGV\u5927\u6da8\uff0c\u8d44\u91d1\u5728\u79d1\u6280\u5185\u90e8\u8f6e\u52a8
-- **\u4ece\u6210\u957f\u6d41\u5411\u4ef7\u503c**\uff1aRPG\uff08\u7b49\u6743\u6807\u666e\uff09-2.48%\uff0c\u4f46\u533b\u7597/\u5fc5\u9009\u6d88\u8d39\u7b49\u9632\u5fa1\u677f\u5757\u8d70\u5f3a
-- **\u5c0f\u76d8\u8d44\u91d1\u6d41\u5165**\uff1aIWM\u6210\u4ea4\u91cf\u6bd4\u5747\u9ad833%\uff0c\u663e\u793a\u8d44\u91d1\u5173\u6ce8\u5c0f\u76d8
-- **\u52a0\u5bc6\u8d44\u91d1\u6d41\u51fa**\uff1aBTC -1.04%\uff0cETH -0.47%
+**风格判断**：明显的"卖硬件、买软件"轮动。IGV +4.06% vs SOXX -5.64%，资金正从AI硬件层（芯片/半导体设备）流向AI应用层（软件/SaaS）。
 
 ---
 
-## 11. \u677f\u5757\u8f6e\u52a8\u5224\u65ad
+## 6. 市场宽度与参与度
 
-**\u5f53\u524d\u8f6e\u52a8\u65b9\u5411**\uff1aAI\u786c\u4ef6 \u2192 AI\u8f6f\u4ef6 \u2192 \u533b\u7597\u4fdd\u5065
+### 6.1 涨跌分布
 
-**\u8f6e\u52a8\u903b\u8f91**\uff1a
-1. \u534a\u5bfc\u4f53\u7ecf\u5386\u591a\u65e5\u629b\u552e\u540e\uff0c\u4f30\u503c\u538b\u529b\u91ca\u653e\uff0c\u8d44\u91d1\u5bfb\u627e\u66f4\u4f4e\u98ce\u9669/\u66f4\u9ad8\u786e\u5b9a\u6027\u7684AI\u53d8\u73b0\u73af\u8282
-2. \u8f6f\u4ef6/SaaS\u516c\u53f8\u662fAI\u6280\u672f\u7684\u76f4\u63a5\u53d7\u76ca\u8005\uff0c\u4e14\u4f30\u503c\u76f8\u5bf9\u5408\u7406
-3. \u533b\u7597\u4fdd\u5065\u53d7GLP-1\u836f\u7269\u5468\u671f\u548cMedicare\u8986\u76d6\u6269\u5927\uff087\u67081\u65e5\u751f\u6548\uff09\u652f\u6301
-4. \u9632\u5fa1\u6027\u677f\u5757\u5728\u4e0d\u786e\u5b9a\u6027\u73af\u5883\u4e2d\u83b7\u5f97\u914d\u7f6e
+| 指标 | 数值 | 解读 |
+|------|------|------|
+| SPY成交量 | 6,924万股 | 高于均值，放量下跌 |
+| QQQ成交量 | 4,708万股 | 放量 |
+| IWM成交量 | 3,830万股 | 小盘交投活跃 |
 
-**\u6301\u7eed\u5173\u6ce8**\uff1a\u82e5\u534a\u5bfc\u4f53\u6301\u7eed\u8dcc\u7834\u5173\u952e\u4f4d\uff0c\u8f6e\u52a8\u53ef\u80fd\u6269\u5927\u5230\u6574\u4e2a\u79d1\u6280\u677f\u5757\u3002
+### 6.2 关键观察
 
----
+- SPX日内振幅98.77点（7,294-7,393），波动率上升
+- NDX跌幅显著大于SPX，科技股权重拖累
+- SOX暴跌5.29%，为近期最大单日跌幅
+- VIX下降至18.41（前日18.89），恐慌情绪未明显升温
 
-## 12. \u91cd\u70b9\u5173\u6ce8\u80a1\u89c2\u5bdf
+### 6.3 其他宽度指标
 
-### \u6838\u5fc3\u79d1\u6280/AI
-
-| \u80a1\u7968 | \u6536\u76d8 | \u6da8\u8dcc | \u89c2\u5bdf |
-|---|---|---|---|
-| NVDA | $192.53 | -1.64% | \u5173\u6ce8$185\u652f\u6491\u4f4d |
-| AMD | $521.58 | -2.06% | \u5173\u6ce8$500\u5fc3\u7406\u5173\u53e3 |
-| AVGO | $365.02 | -3.67% | \u201cJalape\u00f1o\u201d\u540e\u906d\u629b\u552e\uff0c\u5173\u6ce8$350 |
-| MRVL | $266.77 | -5.15% | \u91cd\u632b\uff0c\u5173\u6ce8$250 |
-| GOOGL | $337.39 | -1.84% | \u627f\u538b |
-| MSFT | $372.97 | +5.71% | \u5f3a\u52b2\u53cd\u5f39\uff0c\u8f6f\u4ef6\u9700\u6c42 |
-| META | $550.25 | +1.36% | \u7a33\u5065 |
-| AMZN | $232.69 | +2.50% | Prime Day AI\u9a71\u52a8 |
-| ORCL | $148.53 | -2.58% | \u8d44\u91d1\u6d41\u51fa |
-
-### \u8f6f\u4ef6/SaaS
-
-| \u80a1\u7968 | \u6536\u76d8 | \u6da8\u8dcc | \u89c2\u5bdf |
-|---|---|---|---|
-| CRM | $158.37 | +5.45% | \u5f3a\u52b2\u53cd\u5f39 |
-| NOW | $98.34 | +9.85% | \u66b4\u6da8\uff0c\u7ee7\u7eed\u5173\u6ce8 |
-| SNOW | $248.96 | +9.65% | \u66b4\u6da8\uff0c\u7ee7\u7eed\u5173\u6ce8 |
-| ADBE | $202.73 | +4.82% | \u53cd\u5f39 |
-| PANW | $304.20 | +3.79% | \u7a33\u5065 |
-| CRWD | $701.09 | +3.31% | \u7a33\u5065 |
-| PLTR | $112.93 | +5.28% | \u53cd\u5f39 |
-| DDOG | $239.77 | +8.52% | \u66b4\u6da8 |
-| NET | $237.24 | +4.67% | \u53cd\u5f39 |
-
-### \u5149\u901a\u4fe1
-
-| \u80a1\u7968 | \u6536\u76d8 | \u6da8\u8dcc | \u89c2\u5bdf |
-|---|---|---|---|
-| COHR | $380.56 | -6.55% | \u91cd\u632b\uff0c\u5173\u6ce8$350 |
-| LITE | $816.98 | -5.22% | \u91cd\u632b |
-| AAOI | $135.69 | -2.06% | \u627f\u538b |
-| ANET | $157.60 | -4.74% | \u627f\u538b\uff0c\u5173\u6ce8$150 |
-| MRVL | $266.77 | -5.15% | \u89c1\u4e0a |
-| AVGO | $365.02 | -3.67% | \u89c1\u4e0a |
-
-### AI\u7535\u529b/\u80fd\u6e90
-
-| \u80a1\u7968 | \u6536\u76d8 | \u6da8\u8dcc | \u89c2\u5bdf |
-|---|---|---|---|
-| FLNC | $19.27 | -0.57% | \u627f\u538b |
-| OKLO | $50.00 | -1.98% | \u6838\u80fd\u627f\u538b\uff0c\u5173\u6ce8$45\u652f\u6491 |
-| VST | $163.49 | -2.55% | \u627f\u538b |
-| CEG | $264.02 | -1.74% | \u627f\u538b |
-| ETN | $402.68 | -4.09% | \u627f\u538b |
-| VRT | $303.95 | -6.64% | \u91cd\u632b\uff0c\u5173\u6ce8$280 |
-| PWR | $687.87 | -4.28% | \u627f\u538b |
-| GEV | $1,045.17 | -3.71% | \u627f\u538b |
-| APLD | $39.16 | -4.37% | \u627f\u538b |
-| IREN | $47.21 | -1.11% | \u627f\u538b |
+- RSP（等权标普）-0.68%，说明下跌不仅限于大市值
+- IWN（小盘价值）+0.60% vs IWO（小盘成长）-0.92%，价值优于成长
 
 ---
 
-## 13. \u660e\u65e5\u4ea4\u6613\u8ba1\u5212/\u89c2\u5bdf\u6e05\u5355
+## 7. 技术面分析
 
-### 13.1 \u5b8f\u89c2\u89c2\u5bdf
-
-- **\u7f8e\u4f0a\u5c40\u52bf**\uff1a\u5468\u672b\u62a5\u9053\u505c\u706b\u534f\u8bae\uff0c\u4f46\u6253\u51fb\u4ecd\u5728\u7ee7\u7eed\u3002\u5468\u4e00\u5f00\u76d8\u5173\u6ce8\u6cb9\u4ef7\u548c\u9632\u5fa1\u80a1\u8868\u73b0
-- **\u7f8e\u503a\u6536\u76ca\u7387**\uff1a10Y\u5904\u4e8e4.37%\uff0c\u82e5\u7a81\u78344.5%\u5c06\u5bf9\u6210\u957f\u80a1\u65bd\u538b
-- **Tesla Q2\u4ea4\u4ed8\u6570\u636e**\uff1a\u5173\u6ce8\u662f\u5426\u8d85\u9884\u671f\uff0c\u5f71\u54cdTSLA\u548cEV\u677f\u5757
-
-### 13.2 \u5927\u76d8\u89c2\u5bdf
-
-- **SPY**\uff1a\u5173\u6ce8$720\u652f\u6491\u548c$740\u538b\u529b\uff0c\u82e5\u7a81\u7834$740\u5219\u770b\u6da8
-- **QQQ**\uff1a$695\u662f\u5173\u952e\u652f\u6491\uff0c\u82e5\u7834\u4f4d\u5219\u53ef\u80fd\u52a0\u901f\u4e0b\u8dcc
-- **SOX**\uff1a13,200\u9644\u8fd1\uff0c\u82e5\u783413,000\u5219\u534a\u5bfc\u4f53\u53ef\u80fd\u8fdb\u5165\u6280\u672f\u6027\u718a\u5e02
-
-### 13.3 \u677f\u5757\u89c2\u5bdf
-
-- **\u534a\u5bfc\u4f53**\uff1a\u89c2\u5bdf\u662f\u5426\u7ee7\u7eed\u629b\u552e\u6216\u51fa\u73b0\u6b62\u8dcc\u53cd\u5f39
-- **\u8f6f\u4ef6/SaaS**\uff1a\u89c2\u5bdfNOW/SNOW\u7684\u53cd\u5f39\u662f\u5426\u53ef\u6301\u7eed
-- **\u533b\u7597**\uff1aLLY\u7684\u52bf\u5934\u80fd\u5426\u5ef6\u7eed\u5230\u677f\u5757\u5176\u4ed6\u6807\u7684
-
-### 13.4 \u4e2a\u80a1\u89c2\u5bdf\uff0810-20\u53ea\uff09
-
-1. **NVDA** $192.53 \u2014 \u5173\u952e\u4f4d$185\uff0c\u82e5\u7a81\u7834$200\u5219\u8f6c\u5f3a
-2. **AVGO** $365.02 \u2014 \u201cJalape\u00f1o\u201d\u540e\u906d\u629b\u552e\uff0c\u5173\u6ce8$350\u652f\u6491
-3. **MSFT** $372.97 \u2014 \u5f3a\u52b2\u53cd\u5f39\uff0c\u7ee7\u7eed\u5173\u6ce8$380\u7a81\u7834
-4. **NOW** $98.34 \u2014 +9.85%\u66b4\u6da8\uff0c\u5173\u6ce8\u662f\u5426\u7ee7\u7eed
-5. **SNOW** $248.96 \u2014 +9.65%\u66b4\u6da8\uff0c\u5173\u6ce8\u662f\u5426\u7ee7\u7eed
-6. **DDOG** $239.77 \u2014 +8.52%\u53cd\u5f39\uff0c\u89c2\u5bdf\u53ef\u6301\u7eed\u6027
-7. **LLY** $1,208.12 \u2014 +7.13%\u9886\u6da8\uff0c\u533b\u7597\u9f99\u5934
-8. **TSLA** $379.71 \u2014 Q2\u4ea4\u4ed8\u6570\u636e\u5373\u5c06\u516c\u5e03\uff0c\u6ce2\u52a8\u52a0\u5927
-9. **COHR** $380.56 \u2014 -6.55%\u91cd\u632b\uff0c\u5173\u6ce8$350\u652f\u6491
-10. **VRT** $303.95 \u2014 -6.64%\u91cd\u632b\uff0c\u5173\u6ce8$280\u652f\u6491
-11. **MRVL** $266.77 \u2014 -5.15%\u91cd\u632b\uff0c\u5173\u6ce8$250\u652f\u6491
-12. **PLTR** $112.93 \u2014 +5.28%\u53cd\u5f39\uff0c\u89c2\u5bdf\u52bf\u5934
-13. **AAPL** $283.78 \u2014 +3.14%\u53cd\u5f39\uff0c\u5b58\u50a8\u77ed\u7f3a\u5f71\u54cd
-14. **AMZN** $232.69 \u2014 +2.50%\u7a33\u5065\uff0cPrime Day AI\u9a71\u52a8
-15. **CRM** $158.37 \u2014 +5.45%\u53cd\u5f39\uff0c\u89c2\u5bdf\u53ef\u6301\u7eed\u6027
-16. **ANET** $157.60 \u2014 -4.74%\u627f\u538b\uff0c\u5173\u6ce8$150\u5173\u53e3
-17. **GEV** $1,045.17 \u2014 -3.71%\u627f\u538b\uff0c\u5173\u6ce8$1,000\u652f\u6491
-18. **ETN** $402.68 \u2014 -4.09%\u627f\u538b\uff0c\u5173\u6ce8$390\u652f\u6491
+| 标的 | 收盘 | 日内高/低 | 简评 |
+|------|------|-----------|------|
+| SPY | 728.99 | 736.53 / 726.86 | 7,300附近强支撑，短期关注726支撑 |
+| QQQ | 706.52 | 715.55 / 702.81 | 跌破710关键位，下一支撑700 |
+| IWM | 299.83 | 300.03 / 295.74 | 守住300整数关口 |
+| SMH | 611.61 | 621.67 / 609.19 | 跌破620，关注600整数关 |
+| IGV | 88.20 | 88.42 / 85.09 | 突破88，强势 |
+| XLK | 181.11 | 183.11 / 179.76 | 180为关键支撑 |
+| XLC | 106.18 | 107.25 / 105.37 | 105支撑有效 |
+| XLY | 114.37 | 115.46 / 113.16 | 113-115区间震荡 |
 
 ---
 
-## 14. \u98ce\u9669\u63d0\u793a
+## 8. 重点个股新闻与异动
 
-| \u98ce\u9669\u7ef4\u5ea6 | \u5f53\u524d\u72b6\u6001 | \u98ce\u9669\u7b49\u7ea7 | \u5907\u6ce8 |
-|---|---|---|---|
-| \u5730\u7f18\u653f\u6cbb | \u7f8e\u4f0a\u51b2\u7a81\u5347\u6e29\uff0c\u505c\u706b\u534f\u8bae\u4f46\u6253\u51fb\u7ee7\u7eed | \u9ad8 | \u6cb9\u4ef7\u6ce2\u52a8\u3001\u4f9b\u5e94\u94fe\u98ce\u9669 |
-| AI\u6ce1\u6cab | \u534a\u5bfc\u4f53\u8fde\u7eed\u629b\u552e\uff0cOpenAI IPO\u63a8\u8fdf | \u4e2d\u9ad8 | \u53ef\u80fd\u51fa\u73b0\u201c\u51b2\u9ad8\u9636\u6bb5\u201d\u540e\u56de\u8c03 |
-| \u5229\u7387\u98ce\u9669 | 10Y\u6536\u76ca\u73874.37%\uff0cFed\u964d\u606f\u9884\u671f\u6a21\u7cca | \u4e2d | \u82e5\u7a81\u78344.5%\u5c06\u5bf9\u6210\u957f\u80a1\u65bd\u538b |
-| \u4f30\u503c\u98ce\u9669 | \u79d1\u6280\u80a1\u4f30\u503c\u4ecd\u5904\u5386\u53f2\u9ad8\u4f4d | \u4e2d\u9ad8 | \u8d44\u91d1\u8f6e\u52a8\u53ef\u80fd\u52a0\u901f |
-| \u6d41\u52a8\u6027\u98ce\u9669 | SPY\u6210\u4ea4\u91cf\u653e\u592714%\uff0c\u4f46QQQ\u7f29\u51cf | \u4f4e | \u6574\u4f53\u6d41\u52a8\u6027\u5145\u8db3 |
-| \u52a0\u5bc6\u5e02\u573a | BTC $59K\u627f\u538b\uff0c\u52a0\u5bc6\u8d44\u91d1\u6d41\u51fa | \u4e2d | \u5bf9\u98ce\u9669\u504f\u597d\u654f\u611f |
-| \u5c31\u4e1a\u5e02\u573a | \u4e0b\u5468\u975e\u519c\u5c31\u4e1a\u6570\u636e\u5173\u952e | \u4e2d | \u5c31\u4e1a\u5f31\u4e8e\u9884\u671f\u53ef\u80fd\u52a0\u901f\u964d\u606f\u9884\u671f |
+### 8.1 七巨头
+
+| 股票 | 收盘 | 涨跌幅 | 新闻 |
+|------|------|--------|------|
+| AAPL | $283.78 | **+3.14%** | EU针对Microsoft和Amazon云服务加强"守门人"监管，苹果相对受益（Reuters） |
+| MSFT | $372.97 | **+5.71%** | Michael Burry做多MSFT引发市场关注，单日跳涨（来源：TIKR） |
+| GOOGL | $337.39 | -1.84% | Gemini 3.5 Flash支持Computer Use功能（Alphabet公告） |
+| AMZN | $232.69 | **+2.50%** | 宣布追加$130亿投资印度至2030年（Reuters） |
+| META | $550.25 | +1.36% | 温和上涨 |
+| TSLA | $379.71 | +1.22% | 柏林工厂产能提升20%（Reuters） |
+| NVDA | $192.53 | -1.64% | 跟随芯片板块下跌， Barron's称"Nvidia最大威胁不是AMD而是其最佳客户" |
+
+### 8.2 AI硬件/半导体
+
+| 股票 | 收盘 | 涨跌幅 | 新闻 |
+|------|------|--------|------|
+| AVGO | $365.02 | **-3.67%** | Q2营收$22.2B创纪录，AI芯片收入$10.8B，但软件业务疲软、展望不及预期 |
+| AMD | $521.58 | -2.06% | 跟随芯片板块下跌 |
+| INTC | $128.32 | -3.42% | 芯片板块普跌 |
+| MU | $1,132.33 | **-6.69%** | 市值曾短暂超越Meta和Tesla（Reuters），但当日大幅回调 |
+| LITE | $816.98 | **-5.22%** | 光通信板块承压 |
+| COHR | $380.56 | **-6.55%** | |
+| ANET | $157.60 | -4.74% | |
+| ON | $90.65 | **-23.66%** | 重大利空暴跌，需关注具体原因 |
+| MPWR | $1,313.32 | -8.69% | 模拟芯片龙头大跌 |
+| AMAT | $626.84 | -6.16% | 新芯片制造系统发布但股价下跌 |
+| NXPI | $277.02 | -7.24% | |
+| KLAC | $248.64 | -3.93% | |
+| LRCX | $379.09 | -5.66% | |
+| ARM | $334.27 | -3.87% | |
+| ASML | $1,794.62 | -2.53% | |
+
+**Jameno起诉NVDA**：Jameno起诉NVIDIA，指控其滥用数据和音乐（来源：Yahoo Finance）。
+
+### 8.3 软件/SaaS/AI应用
+
+| 股票 | 收盘 | 涨跌幅 | 新闻 |
+|------|------|--------|------|
+| NOW | $98.34 | **+9.85%** | AI交易堆积，股价大涨（StocksToTrade） |
+| SNOW | $248.96 | **+9.65%** | 数据云平台受资金追捧 |
+| DDOG | $239.77 | **+8.52%** | 可观测性龙头大涨 |
+| NET | $237.24 | **+4.67%** | 宣布与主流浏览器新合作 |
+| PANW | $304.20 | **+3.79%** | 网络安全持续强势 |
+| CRWD | $701.09 | **+3.31%** | AI安全趋势股 |
+| ADBE | $202.73 | **+4.82%** | |
+| PLTR | $112.93 | **+5.28%** | AI数据分析 |
+| CRM | $158.37 | **+5.45%** | BofA上调目标价（Yahoo Finance） |
+| SOFI | $17.85 | **+3.00%** | |
+
+### 8.4 AI电力/数据中心/能源
+
+| 股票 | 收盘 | 涨跌幅 |
+|------|------|--------|
+| VRT | $303.95 | **-6.64%** |
+| ETN | $402.68 | **-4.09%** |
+| PWR | $687.87 | **-4.28%** |
+| GEV | $1,045.17 | **-3.71%** |
+| VST | $163.49 | -2.55% |
+| CEG | $264.02 | -1.74% |
+| OKLO | $50.00 | -1.98% |
+| APLD | $39.16 | -4.37% |
+| IREN | $47.21 | -1.11% |
+| FLNC | $19.27 | -0.57% |
+| NEE | $88.56 | +0.98% |
+| DUK | $128.40 | +1.01% |
+| SO | $97.16 | +1.30% |
+
+**AI数据中心新风险**：热浪和极端天气对AI数据中心构成新威胁，包括电网压力和保险维修成本上升（来源：CNBC 6/29 "The AI boom is colliding with a new threat: severe weather"）。
+
+### 8.5 其他显著异动
+
+- **ON Semiconductor（ON）-23.66%**：暴跌，具体原因需进一步确认，可能是业绩预警或大客户流失
+- **Micron（MU）-6.69%**：市值曾短暂超越Meta和Tesla，但当日大幅回调
+- **Applied Materials（AMAT）-6.16%**：发布新芯片制造系统但遭抛售
+- **Broadcom（AVGO）-3.67%**：Q2财报后持续走弱，AI展望不及极度乐观预期
 
 ---
 
-## 15. \u6700\u7ec8\u7ed3\u8bba
+## 9. 财报日历与财报解读
 
-### \u4eca\u65e5\u5e02\u573a\u7ed3\u8bba
+### 9.1 近期已公布重要财报
 
-2026\u5e746\u670826\u65e5\u662f\u4e00\u4e2a**\u5178\u578b\u7684\u677f\u5757\u8f6e\u52a8\u65e5**\u3002\u5927\u76d8\u6307\u6570\u51e0\u4e4e\u5e73\u6536\uff0c\u4f46\u5185\u90e8\u5206\u5316\u6781\u5927\uff1a\u534a\u5bfc\u4f53\u548cAI\u786c\u4ef6\u906d\u53d7\u60e8\u70c8\u629b\u552e\uff08SOX -5.29%\uff09\uff0c\u800c\u8f6f\u4ef6/SaaS\u548c\u533b\u7597\u4fdd\u5065\u677f\u5757\u5927\u6da8\u3002\u8fd9\u79cd\u8868\u73b0\u8bf4\u660e\u5e02\u573a\u5e76\u975e\u5168\u9762\u98ce\u9669\u538c\u6076\uff0c\u800c\u662f**\u8d44\u91d1\u5728AI\u4ea7\u4e1a\u94fe\u5185\u90e8\u4ece\u786c\u4ef6\u5411\u8f6f\u4ef6\u8f6c\u79fb**\u3002
+| 公司 | 财报亮点 | 市场反应 |
+|------|----------|----------|
+| Broadcom (AVGO) | Q2营收$22.2B创纪录，AI芯片收入$10.8B同比+143%；软件业务疲软；全年AI展望未变 | 暴跌13%+（财报后），延续至周五-3.67% |
+| Nvidia (NVDA) | 此前季度营收$81.6B，数据中心+92% | 财报后持续波动 |
 
-### \u5f53\u524d\u5e02\u573a\u9636\u6bb5
+### 9.2 未来1-3个交易日关注
 
-**\u9636\u6bb5\uff1aAI\u4e3b\u7ebf\u7684\u7b2c\u4e8c\u5e55\u2014\u2014\u4ece\u786c\u4ef6\u5230\u8f6f\u4ef6\u7684\u4ef7\u503c\u53d1\u73b0**
-
-\u7b2c\u4e00\u5e55\u662f2023-2025\u5e74\u7684\u82af\u7247/AI\u57fa\u7840\u8bbe\u65bd\u7206\u53d1\uff0c\u7b2c\u4e8c\u5e55\u6b63\u5728\u5c55\u5f00\uff1a\u5e02\u573a\u5f00\u59cb\u5bfb\u627e\u80fd\u591f\u771f\u6b63\u53d8\u73b0AI\u6280\u672f\u7684\u8f6f\u4ef6\u548c\u5e94\u7528\u5c42\u516c\u53f8\u3002
-
-### \u64cd\u4f5c\u503e\u5411
-
-- **\u77ed\u7ebf**\uff1a\u89c2\u671b\u4e3a\u4e3b\uff0c\u5173\u6ce8\u534a\u5bfc\u4f53\u662f\u5426\u6b62\u8dcc\u3001\u8f6f\u4ef6\u53cd\u5f39\u662f\u5426\u53ef\u6301\u7eed
-- **\u4e2d\u7ebf**\uff1a\u589e\u914d\u8f6f\u4ef6/SaaS\u9f99\u5934\uff08NOW/SNOW/DDOG/CRM\uff09\uff0c\u51cf\u6301\u4f30\u503c\u8fc7\u9ad8\u7684\u786c\u4ef6\u80a1
-- **\u98ce\u9669\u63a7\u5236**\uff1a\u5173\u6ce8SOX\u662f\u5426\u783413,000\uff0cSPY\u662f\u5426\u7834$720
-
-### \u6700\u503c\u5f97\u5173\u6ce8\u76845\u4e2a\u4fe1\u53f7
-
-1. **SOX\u662f\u5426\u783413,000** \u2014 \u534a\u5bfc\u4f53\u662f\u5426\u8fdb\u5165\u6280\u672f\u6027\u718a\u5e02
-2. **NOW/SNOW\u53cd\u5f39\u662f\u5426\u53ef\u6301\u7eed** \u2014 \u8f6f\u4ef6\u677f\u5757\u662f\u5426\u6210\u4e3a\u65b0\u4e3b\u7ebf
-3. **10Y\u6536\u76ca\u7387\u662f\u5426\u7a81\u78344.5%** \u2014 \u5bf9\u6210\u957f\u80a1\u7684\u538b\u529b\u6d4b\u8bd5
-4. **\u7f8e\u4f0a\u5c40\u52bf\u662f\u5426\u6076\u5316** \u2014 \u6cb9\u4ef7\u548c\u9632\u5fa1\u80a1\u7684\u8868\u73b0
-5. **Tesla Q2\u4ea4\u4ed8\u6570\u636e** \u2014 EV\u677f\u5757\u548c\u5e02\u573a\u60c5\u7eea\u7684\u5173\u952e\u50ac\u5316\u5242
+- **下周一（6/29）**：关注Iran-Hormuz局势进展对油价的影响
+- **本周关注**：PCE数据后续影响、6月非农就业报告即将公布
+- **来源**：Kraken Blog "PCE data and June jobs report headline a data-heavy two weeks"
 
 ---
 
-*\u58f0\u660e\uff1a\u672c\u62a5\u544a\u4ec5\u4f9b\u53c2\u8003\uff0c\u4e0d\u6784\u6210\u6295\u8d44\u5efa\u8bae\u3002\u5e02\u573a\u6709\u98ce\u9669\uff0c\u6295\u8d44\u9700\u8c28\u614e\u3002*
+## 10. 机构观点与资金流
+
+- **BofA**：上调QUALCOMM（QCOM）目标价；维持TSM积极评级
+- **Fox Advisors**：下调Seagate Technology（STX）
+- **HSBC**：大幅修改Broadcom股价目标（来源：thestreet.com）
+- **Oppenheimer**：AVGO财报前发出明确信号（来源：thestreet.com）
+- **Michael Burry**：大举做多MSFT，引发市场关注（来源：TIKR）
+- **David Tepper**：减持NVDA和AMD，但加仓某AI股票（来源：24/7 Wall St.）
+- **资金流向**：从半导体硬件/设备流向软件/SaaS/网络安全，"卖铲子、买应用"逻辑正在上演
+
+---
+
+## 11. 板块轮动判断
+
+**当前轮动方向**：
+- **流出**：半导体（SOXX/SOH）、半导体设备（AMAT/LRCX/KLAC）、AI电力/数据中心（VRT/ETN/GEV）
+- **流入**：软件/SaaS（NOW/SNOW/DDOG/NET）、网络安全（PANW/CRWD）、医疗保健（XLV）、防御板块（XLP/XLU）
+
+**轮动逻辑**：
+1. AVGO财报显示AI芯片支出增速可能见顶，市场对硬件资本开支产生疑虑
+2. 软件板块估值相对合理，AI应用层变现逻辑更清晰
+3. 防御板块走强反映宏观不确定性上升（通胀4.1%、Kashkari加息暗示）
+4. 地缘政治风险（伊朗-霍尔木兹）推动避险情绪
+
+**短期判断**：若半导体板块继续走弱，轮动可能加速；若芯片企稳，可能迎来"卖事实"后的反弹机会。
+
+---
+
+## 12. 重点关注股观察
+
+### 核心科技/AI
+| 股票 | 收盘 | 涨跌 | 观察点 |
+|------|------|------|--------|
+| NVDA | $192.53 | -1.64% | AVGO后AI芯片叙事是否松动 |
+| AMD | $521.58 | -2.06% | 跟随芯片板块，关注独立催化剂 |
+| AVGO | $365.02 | -3.67% | 财报后持续消化，关注$350支撑 |
+| MRVL | -- | -- | 暂无可靠数据 |
+| GOOGL | $337.39 | -1.84% | Gemini进展 |
+| MSFT | $372.97 | +5.71% | Burry做多效应持续 |
+| META | $550.25 | +1.36% | 稳健 |
+| AMZN | $232.69 | +2.50% | 印度投资加码 |
+| ORCL | $148.53 | -2.58% | 数据库/AI云 |
+
+### 软件/SaaS
+| 股票 | 收盘 | 涨跌 | 观察点 |
+|------|------|------|--------|
+| CRM | $158.37 | +5.45% | BofA上调目标价 |
+| NOW | $98.34 | +9.85% | AI交易堆积，强势领涨 |
+| SNOW | $248.96 | +9.65% | 数据云强势 |
+| ADBE | $202.73 | +4.82% | |
+| PANW | $304.20 | +3.79% | 网络安全 |
+| CRWD | $701.09 | +3.31% | AI安全 |
+| PLTR | $112.93 | +5.28% | AI数据分析 |
+| DDOG | $239.77 | +8.52% | 可观测性 |
+| NET | $237.24 | +4.67% | 浏览器新合作 |
+
+### 光通信
+| 股票 | 收盘 | 涨跌 | 观察点 |
+|------|------|------|--------|
+| LITE | $816.98 | -5.22% | 光模块承压 |
+| COHR | $380.56 | -6.55% | |
+| AAOI | -- | -- | 暂无可靠数据 |
+| ANET | $157.60 | -4.74% | 网络设备 |
+
+### AI电力/数据中心
+| 股票 | 收盘 | 涨跌 | 观察点 |
+|------|------|------|--------|
+| FLNC | $19.27 | -0.57% | 相对抗跌 |
+| OKLO | $50.00 | -1.98% | 核电小型反应堆 |
+| VST | $163.49 | -2.55% | |
+| CEG | $264.02 | -1.74% | |
+| ETN | $402.68 | -4.09% | 电气设备 |
+| VRT | $303.95 | -6.64% | 数据中心散热 |
+| PWR | $687.87 | -4.28% | |
+| GEV | $1,045.17 | -3.71% | |
+| APLD | $39.16 | -4.37% | 比特币挖矿 |
+| IREN | $47.21 | -1.11% | |
+
+---
+
+## 13. 明日交易计划/观察清单
+
+### 13.1 宏观观察
+- **伊朗-霍尔木兹局势**：美国与伊朗同意暂停敌对行动，关注后续执行（来源：CNBC 6/29）
+- **中国对日本出口管制扩大**：涉及无人机制造商、核企业和防务研究所（来源：CNBC 6/29）
+- **PCE后续影响**：4.1%通胀率是否改变Fed路径
+- **6月非农就业报告**：即将公布，关注就业市场韧性
+- **Kashkari加息言论**：是否引发更多Fed官员鹰派表态
+
+### 13.2 大盘观察
+- **SPX 7,300**：关键支撑位，跌破则看7,250
+- **NDX 29,000**：纳指100整数关口
+- **VIX 18-20**：若突破20需警惕
+- **SOX 13,000**：半导体指数关键支撑
+
+### 13.3 板块观察
+- **半导体（SOXX/SMH）**：是否企稳或继续走弱，决定市场risk-on/off方向
+- **软件（IGV/WCLD）**：资金流入持续性，NOW/SNOW/DDOG是否延续强势
+- **医疗保健（XLV）**：防御板块能否持续领涨
+
+### 13.4 个股观察（15只）
+
+| 优先级 | 股票 | 方向 | 理由 |
+|--------|------|------|------|
+| \u2b50\u2b50\u2b50 | ON | 观望 | -23.66%暴跌，需确认原因再操作 |
+| \u2b50\u2b50\u2b50 | NOW | 关注 | +9.85%突破，AI交易催化剂 |
+| \u2b50\u2b50\u2b50 | AVGO | 观望 | 财报消化中，关注$350支撑 |
+| \u2b50\u2b50 | MSFT | 关注 | Burry做多效应，$373突破 |
+| \u2b50\u2b50 | SNOW | 关注 | +9.65%放量突破 |
+| \u2b50\u2b50 | DDOG | 关注 | +8.52%强势 |
+| \u2b50\u2b50 | NVDA | 观望 | AI芯片叙事是否松动的关键 |
+| \u2b50\u2b50 | MU | 观望 | -6.69%回调，此前市值超Meta |
+| \u2b50 | CRM | 关注 | BofA上调目标价 |
+| \u2b50 | NET | 关注 | 浏览器新合作催化剂 |
+| \u2b50 | PANW | 关注 | 网络安全持续强势 |
+| \u2b50 | VRT | 观望 | -6.64%数据中心散热 |
+| \u2b50 | AAPL | 关注 | +3.14%，EU监管相对受益 |
+| \u2b50 | AMZN | 关注 | 印度投资加码 |
+| \u2b50 | GEV | 观望 | AI电力回调，关注$1,000支撑 |
+
+---
+
+## 14. 风险提示
+
+| 风险维度 | 当前状态 | 风险等级 | 说明 |
+|----------|----------|----------|------|
+| 半导体AI叙事 | AVGO展望不及预期，板块暴跌 | **高** | AI硬件资本开支可能减速 |
+| 通胀黏性 | PCE 4.1%，Kashkari暗示加息 | **中高** | Fed降息预期进一步推迟 |
+| 地缘政治 | 伊朗-霍尔木兹局势，中日出口管制 | **中** | 油价波动、供应链风险 |
+| 经济放缓 | Q1 GDP 1.6%低于预期 | **中** | 衰退担忧升温 |
+| 市场集中度 | 七巨头权重过高 | **中** | 单一个股波动影响指数 |
+| ON暴跌传导 | ON -23.66%，半导体链恐慌 | **中高** | 若为系统性问题可能扩散 |
+| VIX水平 | 18.41，尚可控 | **低** | 但SOX波动率上升需警惕 |
+| 软件估值 | NOW/SNOW/CRWD短期涨幅大 | **中** | 追高风险 |
+
+---
+
+## 15. 最终结论
+
+### 今日市场结论
+周五美股呈现典型的**板块轮动日**——半导体和AI硬件遭重挫，软件和应用层获资金追捧。Broadcom财报是核心催化剂：尽管AI芯片收入翻倍，但软件业务疲软和保守展望打破了市场"完美定价"，触发"买预期卖事实"行情。叠加ON Semiconductor暴跌23.66%的未知利空，半导体板块恐慌蔓延。
+
+### 当前市场阶段
+**AI投资周期进入"第二阶段"**：从"所有铲子都值钱"转向"验证应用层变现"。硬件层估值面临消化压力，软件层相对受益。这不是AI叙事的终结，而是从"狂热期"进入"分化期"的正常过程。
+
+### 操作倾向
+- **短期（1-3天）**：防御为主，关注软件/SaaS延续性，回避半导体追跌
+- **中期（1-2周）**：等待半导体企稳信号（SOX是否守住13,000），关注6月非农数据
+- **风格**：软件优于硬件，防御优于进攻，价值优于成长
+
+### 最值得关注的5个信号
+1. **ON Semiconductor暴跌原因**——若为业绩预警或大客户流失，可能引发半导体链进一步抛售
+2. **SOX能否在13,000附近企稳**——跌破则确认AI硬件调整加深
+3. **IGV软件板块资金流入持续性**——决定本轮轮动是短期还是中期趋势
+4. **伊朗-霍尔木兹局势进展**——影响油价和风险偏好
+5. **Fed官员后续表态**——Kashkari加息暗示是否得到其他官员呼应
+
+---
+
+*免责声明：本报告仅为信息整理和分析，不构成投资建议。市场有风险，投资需谨慎。*
